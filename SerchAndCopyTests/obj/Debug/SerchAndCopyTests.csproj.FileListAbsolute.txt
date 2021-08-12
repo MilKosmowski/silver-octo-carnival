@@ -1,0 +1,46 @@
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\WindowsFormsApp1.exe
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\CustomExtensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\WindowsFormsApp1.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\WindowsFormsApp1.exe.config
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\CustomExtensions.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\obj\Debug\SerchAndCopyTests.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\obj\Debug\SerchAndCopyTests.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\obj\Debug\SerchAndCopyTests.csproj.CopyComplete
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\obj\Debug\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\obj\Debug\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\source location test\1.txt
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\source location test\2.txt
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\source location test\3.txt
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests\bin\Debug\source location test\4.txt
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\SerchAndCopyTests.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\SerchAndCopyTests.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\CustomExtensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\SearchAndCopy.exe
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\CustomExtensions.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\SearchAndCopy.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\SearchAndCopy.exe.config
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\obj\Debug\SerchAndCopyTests.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\obj\Debug\SerchAndCopyTests.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\obj\Debug\SerchAndCopyTests.csproj.CopyComplete
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\obj\Debug\SerchAndCopyTests.dll
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\obj\Debug\SerchAndCopyTests.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Test text files source\1.txt
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Test text files source\2.txt
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Test text files source\3.txt
+C:\Rozwiązania c#\Central Packaging Main Program\SerchAndCopyTests\bin\Debug\Test text files source\4.txt

@@ -1,0 +1,33 @@
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.deps.json
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.runtimeconfig.json
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.runtimeconfig.dev.json
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.dll
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.pdb
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.csprojAssemblyReference.cache
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.csproj.CoreCompileInputs.cache
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.AssemblyInfoInputs.cache
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.AssemblyInfo.cs
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.dll
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.deps.json
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.runtimeconfig.json
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.runtimeconfig.dev.json
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.dll
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.AssemblyInfoInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.AssemblyInfo.cs
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.dll
+C:\Rozwiązania c#\Central Packaging Main Program\ConsoleApp3\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.deps.json
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.runtimeconfig.json
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.runtimeconfig.dev.json
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\bin\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.AssemblyInfoInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.AssemblyInfo.cs
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Wyciąganie danych z logów ICT\obj\Debug\netcoreapp2.1\Wyciąganie danych z logów ICT.pdb

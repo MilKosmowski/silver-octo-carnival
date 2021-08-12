@@ -1,0 +1,114 @@
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\CentralPack.csprojAssemblyReference.cache
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\CentralPack.csproj.GenerateResource.cache
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\CentralPack.csproj.CoreCompileInputs.cache
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\Central_pack.Properties.Resources.resources
+C:\CrPackStation_auto_skan\Central_pack\bin\Debug\Central_pack.exe.config
+C:\CrPackStation_auto_skan\Central_pack\bin\Debug\Central_pack.exe
+C:\CrPackStation_auto_skan\Central_pack\bin\Debug\Central_pack.pdb
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\Central_pack.exe
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\Central_pack.pdb
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\Central_pack.MenuOpcji.resources
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\Central_pack.GłównaPętlaProgramu.resources
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\Central_pack.WyskakująceOkienko.resources
+C:\CrPackStation_auto_skan\Central_pack\bin\Debug\Kod źródłowy\Okna otwierane w glownym programie\Okno Opcji.resx
+C:\CrPackStation_auto_skan\Central_pack\bin\Debug\Kod źródłowy\Okna otwierane w glownym programie\Okno Opcji.cs
+C:\CrPackStation_auto_skan\Central_pack\bin\Debug\Kod źródłowy\Okna otwierane w glownym programie\Okno Opcji.Designer.cs
+C:\CrPackStation_auto_skan\Central_pack\obj\Debug\Central_pack.GlownaPetlaProgramu.resources
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csprojAssemblyReference.cache
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Properties.Resources.resources
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.GenerateResource.cache
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CoreCompileInputs.cache
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe.config
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.pdb
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.exe
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.pdb
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.dll
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.api.dll
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.core.dll
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.dll
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.pdb
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.xml
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CopyComplete
+C:\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csprojAssemblyReference.cache
+C:\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.MenuOpcji.resources
+C:\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.WyskakująceOkienko.resources
+C:\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Properties.Resources.resources
+C:\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.GenerateResource.cache
+C:\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CoreCompileInputs.cache
+C:\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.exe
+C:\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.pdb
+C:\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Deklaracje.resources
+C:\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.dll
+C:\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.dll
+C:\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.api.dll
+C:\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.core.dll
+C:\Central Packaging Main Program\Central_pack\bin\Debug\src\Okna otwierane w glownym programie\Okno Opcji.resx
+C:\Central Packaging Main Program\Central_pack\bin\Debug\src\Okna otwierane w glownym programie\Okno Opcji.cs
+C:\Central Packaging Main Program\Central_pack\bin\Debug\src\Okna otwierane w glownym programie\Okno Opcji.Designer.cs
+C:\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe.config
+C:\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe
+C:\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.pdb
+C:\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.dll
+C:\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.pdb
+C:\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.xml
+C:\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CopyComplete
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.resx
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.cs
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.Designer.cs
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.OptionsMenu.resources
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Declarations.resources
+C:\Users\hjtb7l\source\repos\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.PopupWindow.resources
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.resx
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.cs
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.Designer.cs
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.dll
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.pdb
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.dll
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.api.dll
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.core.dll
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe.config
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.pdb
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.dll
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.pdb
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.xml
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csprojAssemblyReference.cache
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.OptionsMenu.resources
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Declarations.resources
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.PopupWindow.resources
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Properties.Resources.resources
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.GenerateResource.cache
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CoreCompileInputs.cache
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CopyComplete
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.exe
+\\smt_ict_server\Agilent_ICT\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.resx
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.cs
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\src\Options and Warning windows\Options Window.Designer.cs
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.api.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\nunit.engine.core.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe.config
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.exe
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\Central_pack.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\nunit.framework.xml
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.OptionsMenu.resources
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Declarations.resources
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.PopupWindow.resources
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.Properties.Resources.resources
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.GenerateResource.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\CentralPack.csproj.CopyComplete
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.exe
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\obj\Debug\Central_pack.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\CustomExtensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\bin\Debug\CustomExtensions.pdb

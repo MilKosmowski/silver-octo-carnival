@@ -1,0 +1,3 @@
+11:25:39 Problem z adresem ip/hostame serwera SAP. Sprawdź poprawność nazwy w pliku konfiguracyjnym
+11:25:40 <T>
+11:25:49 Zamykanie programu
