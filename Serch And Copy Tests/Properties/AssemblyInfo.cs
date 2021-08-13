@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests")]
+[assembly: AssemblyTitle("Search And Copy Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SerchAndCopyFilesWithSpecificTextSearchAdnCopyTests")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyProduct("Search And Copy Tests")]
+[assembly: AssemblyCopyright("Miłosz Kosmowski")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

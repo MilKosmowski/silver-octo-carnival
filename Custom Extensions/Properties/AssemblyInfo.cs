@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CustomExtensions")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Miłosz Kosmowski")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

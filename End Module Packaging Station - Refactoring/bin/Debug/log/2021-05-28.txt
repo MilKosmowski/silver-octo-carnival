@@ -1,0 +1,5 @@
+10:54:51 10.235.241.235 B=32 T=25ms TTL=64
+10:54:51 10.128.40.221 B=32 T=117ms TTL=249
+10:54:52 <T>
+10:54:55 Zamykanie programu
+10:54:58 Zamykanie programu

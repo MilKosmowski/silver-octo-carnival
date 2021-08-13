@@ -1,0 +1,103 @@
+11:12:36 144.250.13.16 B=32 T=139ms TTL=249
+11:12:36 <T>
+11:12:38 Zamykanie programu
+11:43:22 Connection Error: Value cannot be null.Parameter name: hostNameOrAddress
+11:43:22 144.250.13.16 B=32 T=131ms TTL=249
+11:43:23 <T>
+11:43:28 Zamykanie programu
+03:05:05 Connection Error: Value cannot be null.Parameter name: hostNameOrAddress
+03:05:05 144.250.13.16 B=32 T=134ms TTL=249
+03:05:06 <T>
+03:05:27 Response msg: 
+03:05:27 Command msg: Zeskanuj kod Q
+03:05:29 Command msg: Zeskanuj kod 3S
+03:05:34 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:05:34 Przerywana wynik: OK
+03:05:34 Zapytanie FIS: BCRTCN|lot=123123121|process=PACK|station=CENTRAL_PACK_9|qty=1|delphipartnumber=11112222|status=PASS
+03:05:34 Odpowiedz FIS: BCRTCNACK|lot=123123121|status=FAIL|msg=Opakowanie 123123121 jest juz zamkniete
+03:05:34 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:05:34 LegacyRemoveFromInterruptedProduction |123123121|, failed to delete index from list: InterruptedProductionFile
+03:05:34 Reset
+03:05:34 Command msg: Zeskanuj kod 1P
+03:05:34 Zeskanuj kod 1P
+03:06:52 Response msg: 
+03:06:52 Command msg: Zeskanuj kod Q
+03:06:54 Command msg: Zeskanuj kod 3S
+03:06:57 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:06:57 Przerywana wynik: OK
+03:06:57 Zapytanie FIS: BCRTCN|lot=123123121|process=PACK|station=CENTRAL_PACK_9|qty=1|delphipartnumber=11112222|status=PASS
+03:06:58 Odpowiedz FIS: BCRTCNACK|lot=123123121|status=PASS|msg=Opakowanie: 123123121 przygotowane od zaladunku
+03:06:58 Utworzono etykietę: 3S123123121.
+03:06:58 Command msg: Zeskanuj barkod produktu
+03:06:58 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S123123121 rozpoczete.
+03:06:58 Command msg: Zeskanuj barkod produktu
+03:07:02 Zapytanie FIS: BREQ|id=1241|station=CENTRAL_PACK_9|process=PACK|status=PASS|get=uk2
+03:07:02 Odpowiedz FIS: BCNF|id=1241|status=PASS|uk2=11112222|
+03:07:02 Zapytanie FIS: BCMPU|id=1241|station=CENTRAL_PACK_9|lot=123123121|process=PACK|delphipartnumber=11112222|status=FINISHED
+03:07:02 Odpowiedz FIS: BCMPUACK|id=1241|status=PASS|msg=Dane detalu wprowadzone do bazy danych
+03:07:02 Command msg: Zeskanuj kolejny produkt
+03:07:02 Ilość elementów spakowanych do etykiety: 1. Ilość elementów mieszczących się w etykiecie: 1. Etykieta jest pełna. Karton zamknięto.
+03:07:02 Zapytanie FIS: BCRTCN|lot=123123121|process=PACK|station=CENTRAL_PACK_9|qty=1|delphipartnumber=11112222|status=FINISHED
+03:07:02 Odpowiedz FIS: BCRTCNACK|lot=123123121|status=PASS|msg=Opakowanie 123123121 zamkniete - Dane wprowadzone do bazy danych
+03:07:02 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:07:02 LegacyRemoveFromInterruptedProduction |123123121|, failed to delete index from list: InterruptedProductionFile
+03:07:02 Reset
+03:07:02 Command msg: Zeskanuj kod 1P
+03:07:02 Zeskanuj kod 1P
+03:07:39 Zamykanie programu
+03:11:10 10.235.241.235 B=32 T=1ms TTL=64
+03:11:10 144.250.13.16 B=32 T=133ms TTL=249
+03:11:11 <T>
+03:11:46 Response msg: 
+03:11:46 Command msg: Zeskanuj kod Q
+03:11:46 Command msg: Zeskanuj kod 3S
+03:11:50 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:11:50 Przerywana wynik: OK
+03:11:50 Zapytanie FIS: BCRTCN|lot=123123121|process=PACK|station=CENTRAL_PACK_9|qty=1|delphipartnumber=11112222|status=PASS
+03:11:50 Odpowiedz FIS: BCRTCNACK|lot=123123121|status=PASS|msg=Opakowanie: 123123121 przygotowane od zaladunku
+03:11:50 Utworzono etykietę: 3S123123121.
+03:11:50 Command msg: Zeskanuj barkod produktu
+03:11:50 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S123123121 rozpoczete.
+03:11:50 Command msg: Zeskanuj barkod produktu
+03:11:53 Zapytanie FIS: BREQ|id=1241|station=CENTRAL_PACK_9|process=PACK|status=PASS|get=uk2
+03:11:53 Odpowiedz FIS: BCNF|id=1241|status=PASS|uk2=11112222|
+03:11:53 Zapytanie FIS: BCMPU|id=1241|station=CENTRAL_PACK_9|lot=123123121|process=PACK|delphipartnumber=11112222|status=FINISHED
+03:11:53 Odpowiedz FIS: BCMPUACK|id=1241|status=PASS|msg=Dane detalu wprowadzone do bazy danych
+03:11:53 Command msg: Zeskanuj kolejny produkt
+03:11:53 Ilość elementów spakowanych do etykiety: 1. Ilość elementów mieszczących się w etykiecie: 1. Etykieta jest pełna. Karton zamknięto.
+03:11:53 Zapytanie FIS: BCRTCN|lot=123123121|process=PACK|station=CENTRAL_PACK_9|qty=1|delphipartnumber=11112222|status=FINISHED
+03:11:53 Odpowiedz FIS: BCRTCNACK|lot=123123121|status=PASS|msg=Opakowanie 123123121 zamkniete - Dane wprowadzone do bazy danych
+03:11:53 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:11:53 LegacyRemoveFromInterruptedProduction |123123121|, failed to delete index from list: InterruptedProductionFile
+03:11:53 Reset
+03:11:53 Command msg: Zeskanuj kod 1P
+03:11:54 Zeskanuj kod 1P
+03:11:55 Zamykanie programu
+03:13:47 10.235.241.235 B=32 T=1ms TTL=64
+03:13:47 144.250.13.16 B=32 T=114ms TTL=249
+03:13:48 <T>
+03:14:40 Response msg: 
+03:14:40 Command msg: Zeskanuj kod Q
+03:14:42 Command msg: Zeskanuj kod 3S
+03:14:45 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:14:45 Przerywana wynik: OK
+03:14:45 Zapytanie FIS: BCRTCN|lot=123123121|process=PACK|station=CENTRAL_PACK_9|qty=1|delphipartnumber=11112222|status=PASS
+03:14:45 Odpowiedz FIS: BCRTCNACK|lot=123123121|status=PASS|msg=Opakowanie: 123123121 przygotowane od zaladunku
+03:14:45 Utworzono etykietę: 3S123123121.
+03:14:45 Command msg: Zeskanuj barkod produktu
+03:14:45 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S123123121 rozpoczete.
+03:14:45 Command msg: Zeskanuj barkod produktu
+03:14:50 Zapytanie FIS: BREQ|id=1241|station=CENTRAL_PACK_9|process=PACK|status=PASS|get=uk2
+03:14:50 Odpowiedz FIS: BCNF|id=1241|status=PASS|uk2=11112222|
+03:14:50 Zapytanie FIS: BCMPU|id=1241|station=CENTRAL_PACK_9|lot=123123121|process=PACK|delphipartnumber=11112222|status=FINISHED
+03:14:50 Odpowiedz FIS: BCMPUACK|id=1241|status=PASS|msg=Dane detalu wprowadzone do bazy danych
+03:14:50 Command msg: Zeskanuj kolejny produkt
+03:14:50 Ilość elementów spakowanych do etykiety: 1. Ilość elementów mieszczących się w etykiecie: 1. Etykieta jest pełna. Karton zamknięto.
+03:14:50 Zapytanie FIS: BCRTCN|lot=123123121|process=PACK|station=CENTRAL_PACK_9|qty=1|delphipartnumber=11112222|status=FINISHED
+03:14:50 Odpowiedz FIS: BCRTCNACK|lot=123123121|status=PASS|msg=Opakowanie 123123121 zamkniete - Dane wprowadzone do bazy danych
+03:14:50 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:14:50 LegacyRemoveFromInterruptedProduction |123123121|, failed to delete index from list: InterruptedProductionFile
+03:14:52 Reset
+03:14:52 Command msg: Zeskanuj kod 1P
+03:14:52 Zeskanuj kod 1P
+03:14:54 Zamykanie programu

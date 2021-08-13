@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Central_pack.Properties {
+namespace Central_pack_Refactoring.Properties {
     using System;
     
     

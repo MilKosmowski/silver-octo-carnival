@@ -1,0 +1,1747 @@
+10:39:31 10.235.241.235 B=32 T=13ms TTL=64
+10:39:31 10.128.40.221 B=32 T=124ms TTL=249
+10:39:31 <T>
+10:40:23 CCS: 
+10:40:36 Zamykanie programu
+10:46:26 10.235.241.235 B=32 T=1ms TTL=64
+10:46:26 10.128.40.221 B=32 T=125ms TTL=249
+10:46:26 <T>
+10:46:29 CCS: 
+10:46:32 1P28691448-01 3S689644310 Q1
+10:46:32 CCS: 
+10:46:32 ACS: 1P28691448-01
+10:46:33 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+10:46:33 ACS: Q1
+10:46:33 ACS: 3S689644310
+10:46:36 1P28691448-01 3S689644310 Q1
+10:46:36 CCS: 3S689644310
+10:46:39 CCS: 3S689644310
+10:46:42 1P28632176-01 3S655365187 Q240
+10:46:42 CCS: 3S689644310
+10:46:45 1P28632176-01 3S655365187 Q240
+10:46:45 CCS: 3S689644310
+10:46:48 1P28632176-01 3S655365187 Q240
+10:46:48 CCS: 3S689644310
+10:46:51 1P28632176-01 3S655365187 Q240
+10:46:51 CCS: 3S689644310
+10:46:54 CCS: 3S689644310
+10:46:57 CCS: 3S689644310
+10:47:00 CCS: 3S689644310
+10:47:03 CCS: 3S689644310
+10:47:06 CCS: 3S689644310
+10:47:09 1P28632176-01 3S655365187 Q240
+10:47:09 CCS: 3S689644310
+10:47:12 1P28632176-01 3S655365187 Q240
+10:47:12 CCS: 3S689644310
+10:47:15 CCS: 3S689644310
+10:47:16 Zamykanie programu
+10:47:19 10.235.241.235 B=32 T=2ms TTL=64
+10:47:19 10.128.40.221 B=32 T=124ms TTL=249
+10:47:20 <T>
+10:47:23 CCS: 
+10:47:26 1P28632176-01 3S655365187 Q240
+10:47:26 CCS: 
+10:47:26 ACS: 1P28632176-01
+10:47:26 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+10:47:26 ACS: Q240
+10:47:26 ACS: 3S655365187
+10:47:29 1P28632176-01 3S655365187 Q240
+10:47:29 CCS: 3S655365187
+10:47:32 CCS: 3S655365187
+10:47:35 1P28691448-01 3S689644310 Q1
+10:47:35 CCS: 3S655365187
+10:47:38 1P28691448-01 3S689644310 Q1
+10:47:38 CCS: 3S655365187
+10:47:38 Zamykanie programu
+10:47:43 10.235.241.235 B=32 T=2ms TTL=64
+10:47:43 10.128.40.221 B=32 T=125ms TTL=249
+10:47:43 <T>
+10:47:46 CCS: 
+10:47:49 1P28691448-01 3S689644310 Q1
+10:47:49 CCS: 
+10:47:49 ACS: 1P28691448-01
+10:47:49 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+10:47:49 ACS: Q1
+10:47:49 ACS: 3S689644310
+10:47:52 CCS: 3S689644310
+10:47:55 CCS: 3S689644310
+10:47:58 CCS: 3S689644310
+10:48:02 CCS: 3S689644310
+10:48:05 CCS: 3S689644310
+10:48:08 CCS: 3S689644310
+10:48:11 1P28513163-01 3S651277404 Q12
+10:48:11 CCS: 3S689644310
+10:48:14 1P28513163-01 3S651277404 Q12
+10:48:14 CCS: 3S689644310
+10:48:17 CCS: 3S689644310
+10:48:20 1P28513163-01 3S651277404 Q12
+10:48:20 CCS: 3S689644310
+10:48:22 Zamykanie programu
+10:48:26 10.235.241.235 B=32 T=1ms TTL=64
+10:48:26 10.128.40.221 B=32 T=174ms TTL=249
+10:48:26 <T>
+10:48:29 CCS: 
+10:48:32 CCS: 
+10:48:35 CCS: 
+10:48:38 CCS: 
+10:48:41 1P28513163-01 3S651277404 Q12
+10:48:41 CCS: 
+10:48:41 ACS: 1P28513163-01
+10:48:41 Response msg: Nie znaleziono pliku konfiguracyjnego: 28513163
+10:48:41 ACS: Q12
+10:48:41 ACS: 3S651277404
+10:48:44 CCS: 3S651277404
+10:48:47 CCS: 3S651277404
+10:48:50 CCS: 3S651277404
+10:48:54 CCS: 3S651277404
+10:48:57 CCS: 3S651277404
+10:49:00 CCS: 3S651277404
+10:49:01 Zamykanie programu
+10:49:05 10.235.241.235 B=32 T=2ms TTL=64
+10:49:05 10.128.40.221 B=32 T=127ms TTL=249
+10:49:06 <T>
+10:49:09 CCS: 
+10:49:12 CCS: 
+10:49:15 CCS: 
+10:49:18 1P28629580-01 3S641336099 Q6
+10:49:18 CCS: 
+10:49:18 ACS: 1P28629580-01
+10:49:18 Response msg: 
+10:49:18 Command msg: Zeskanuj kod Q
+10:49:18 ACS: Q6
+10:49:18 Command msg: Zeskanuj kod 3S
+10:49:18 ACS: 3S641336099
+10:49:24 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+10:49:24 Przerywana wynik: OK
+10:49:24 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+10:49:24 Odpowiedz FIS: 
+10:49:24 Błędna odpowiedź z FIS dla kartonu. Pobierz inny karton. odpowiedź: ERRORUNKNOWN error
+10:49:24 Reset
+10:49:24 Command msg: Zeskanuj kod 1P
+10:49:24 Zeskanuj kod 1P
+10:49:26 CCS: 
+10:49:29 CCS: 
+10:49:32 CCS: 
+10:49:35 CCS: 
+10:49:38 CCS: 
+10:49:41 CCS: 
+10:49:44 CCS: 
+10:49:47 CCS: 
+10:49:50 CCS: 
+10:49:53 CCS: 
+10:49:56 CCS: 
+10:50:00 CCS: 
+10:50:03 CCS: 
+10:50:06 1P28629580-01 3S641336099 Q6
+10:50:06 CCS: 
+10:50:06 ACS: 1P28629580-01
+10:50:06 Response msg: 
+10:50:06 Command msg: Zeskanuj kod Q
+10:50:06 ACS: Q6
+10:50:06 Command msg: Zeskanuj kod 3S
+10:50:06 ACS: 3S641336099
+10:50:06 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+10:50:06 Przerywana wynik: OK
+10:50:06 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+10:50:06 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+10:50:06 Zapytanie FIS: GETCHILDREN|id=641336099
+10:50:06 Odpowiedz FIS: NO CHILDREN
+10:50:06 Command msg: Zeskanuj barkod produktu
+10:50:06 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+10:50:06 Command msg: Zeskanuj barkod produktu
+10:50:09 1P28629580-01 3S641336099 Q6
+10:50:09 CCS: 3S641336099
+10:50:10 Response msg: Produkcja przerywana / Reset
+10:50:10 Reset
+10:50:10 Command msg: Zeskanuj kod 1P
+10:50:10 Zeskanuj kod 1P
+10:50:12 CCS: 
+10:50:15 CCS: 
+10:50:18 CCS: 
+10:50:21 CCS: 
+10:50:24 1P28629580-01 3S641336099 Q6
+10:50:24 CCS: 
+10:50:24 ACS: 1P28629580-01
+10:50:24 Response msg: 
+10:50:24 Command msg: Zeskanuj kod Q
+10:50:24 ACS: Q6
+10:50:24 Command msg: Zeskanuj kod 3S
+10:50:24 ACS: 3S641336099
+10:50:24 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+10:50:24 Przerywana wynik: OK
+10:50:24 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+10:50:24 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+10:50:24 Zapytanie FIS: GETCHILDREN|id=641336099
+10:50:24 Odpowiedz FIS: NO CHILDREN
+10:50:24 Command msg: Zeskanuj barkod produktu
+10:50:24 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+10:50:24 Command msg: Zeskanuj barkod produktu
+10:50:27 CCS: 3S641336099
+10:50:30 CCS: 3S641336099
+10:50:33 1P28632176-01 3S655991115 Q1
+10:50:33 CCS: 3S641336099
+10:50:36 1P28632176-01 3S655991115 Q1
+10:50:36 CCS: 3S641336099
+10:50:39 1P28632176-01 3S655991115 Q1
+10:50:39 CCS: 3S641336099
+10:50:42 1P28632176-01 3S655991115 Q1
+10:50:42 CCS: 3S641336099
+10:50:45 CCS: 3S641336099
+10:50:48 CCS: 3S641336099
+10:50:51 CCS: 3S641336099
+10:50:54 CCS: 3S641336099
+10:50:57 CCS: 3S641336099
+10:51:00 CCS: 3S641336099
+10:51:04 CCS: 3S641336099
+10:51:07 CCS: 3S641336099
+10:51:10 CCS: 3S641336099
+10:51:10 Zamykanie programu
+10:51:38 10.235.241.235 B=32 T=1ms TTL=64
+10:51:40 10.128.40.221 B=32 T=123ms TTL=249
+10:51:40 <T>
+10:51:43 CCS: 
+10:51:46 1P28632176-01 3S655991115 Q1
+10:51:46 CCS: 
+10:51:47 ACS: 1P28632176-01
+10:51:47 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+10:51:47 ACS: Q1
+10:51:47 ACS: 3S655991115
+10:51:50 1P28632176-01 3S655991115 Q1
+10:51:50 CCS: 3S655991115
+10:51:53 1P28629580-01 3S641336099 Q6
+10:51:53 CCS: 3S655991115
+10:51:56 1P28629580-01 3S641336099 Q6
+10:51:56 CCS: 3S655991115
+10:51:59 1P28629580-01 3S641336099 Q6
+10:51:59 CCS: 3S655991115
+10:52:02 1P28629580-01 3S641336099 Q6
+10:52:02 CCS: 3S655991115
+10:52:05 CCS: 3S655991115
+10:52:08 CCS: 3S655991115
+10:52:11 CCS: 3S655991115
+10:52:14 CCS: 3S655991115
+10:52:17 CCS: 3S655991115
+10:52:20 CCS: 3S655991115
+10:52:23 CCS: 3S655991115
+10:52:26 CCS: 3S655991115
+10:52:29 CCS: 3S655991115
+10:52:32 CCS: 3S655991115
+10:52:35 CCS: 3S655991115
+10:52:38 CCS: 3S655991115
+10:52:41 CCS: 3S655991115
+10:52:44 CCS: 3S655991115
+10:52:47 CCS: 3S655991115
+10:52:50 CCS: 3S655991115
+10:52:54 CCS: 3S655991115
+10:52:57 CCS: 3S655991115
+10:53:00 CCS: 3S655991115
+10:53:03 CCS: 3S655991115
+10:53:06 CCS: 3S655991115
+10:53:17 10.235.241.235 B=32 T=1ms TTL=64
+10:53:18 10.128.40.221 B=32 T=124ms TTL=249
+10:53:18 <T>
+10:53:21 CCS: 
+10:53:24 1P28629580-01 3S641336099 Q6
+10:53:24 CCS: 
+10:53:24 ACS: 1P28629580-01
+10:53:24 Response msg: 
+10:53:24 Command msg: Zeskanuj kod Q
+10:53:24 ACS: Q6
+10:53:24 Command msg: Zeskanuj kod 3S
+10:53:24 ACS: 3S641336099
+10:53:24 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+10:53:24 Przerywana wynik: OK
+10:53:24 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+10:53:25 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+10:53:25 Zapytanie FIS: GETCHILDREN|id=641336099
+10:53:25 Odpowiedz FIS: NO CHILDREN
+10:53:25 Command msg: Zeskanuj barkod produktu
+10:53:25 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+10:53:25 Command msg: Zeskanuj barkod produktu
+10:53:27 1P28629580-01 3S641336099 Q6
+10:53:27 CCS: 3S641336099
+10:53:30 1P28632176-01 3S655991115 Q1
+10:53:30 CCS: 3S641336099
+10:53:33 1P28632176-01 3S655991115 Q1
+10:53:33 CCS: 3S641336099
+10:53:36 Response msg: Produkcja przerywana / Reset
+10:53:36 Reset
+10:53:36 Command msg: Zeskanuj kod 1P
+10:53:36 Zeskanuj kod 1P
+10:53:36 CCS: 
+10:53:39 1P28632176-01 3S655991115 Q1
+10:53:39 CCS: 
+10:53:39 ACS: 1P28632176-01
+10:53:39 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+10:53:39 Reset
+10:53:39 Command msg: Zeskanuj kod 1P
+10:53:39 Zeskanuj kod 1P
+10:53:39 ACS: Q1
+10:53:39 Reset
+10:53:39 Command msg: Zeskanuj kod 1P
+10:53:39 Zeskanuj kod 1P
+10:53:39 ACS: 3S655991115
+10:53:40 Reset
+10:53:40 Command msg: Zeskanuj kod 1P
+10:53:40 Zeskanuj kod 1P
+10:53:42 1P28632176-01 3S655991115 Q1
+10:53:42 CCS: 
+10:53:42 ACS: 1P28632176-01
+10:53:43 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+10:53:43 Reset
+10:53:43 Command msg: Zeskanuj kod 1P
+10:53:43 Zeskanuj kod 1P
+10:53:43 ACS: Q1
+10:53:43 Reset
+10:53:43 Command msg: Zeskanuj kod 1P
+10:53:43 Zeskanuj kod 1P
+10:53:43 ACS: 3S655991115
+10:53:43 Reset
+10:53:43 Command msg: Zeskanuj kod 1P
+10:53:43 Zeskanuj kod 1P
+10:53:46 1P28632176-01 3S655991115 Q1
+10:53:46 CCS: 
+10:53:46 ACS: 1P28632176-01
+10:53:46 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+10:53:46 Reset
+10:53:46 Command msg: Zeskanuj kod 1P
+10:53:46 Zeskanuj kod 1P
+10:53:46 ACS: Q1
+10:53:46 Reset
+10:53:46 Command msg: Zeskanuj kod 1P
+10:53:46 Zeskanuj kod 1P
+10:53:46 ACS: 3S655991115
+10:53:46 Reset
+10:53:46 Command msg: Zeskanuj kod 1P
+10:53:46 Zeskanuj kod 1P
+10:53:49 1P28632176-01 3S655991115 Q1
+10:53:49 CCS: 
+10:53:49 ACS: 1P28632176-01
+10:53:49 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+10:53:49 Reset
+10:53:49 Command msg: Zeskanuj kod 1P
+10:53:49 Zeskanuj kod 1P
+10:53:49 ACS: Q1
+10:53:49 Reset
+10:53:49 Command msg: Zeskanuj kod 1P
+10:53:49 Zeskanuj kod 1P
+10:53:49 ACS: 3S655991115
+10:53:49 Reset
+10:53:49 Command msg: Zeskanuj kod 1P
+10:53:49 Zeskanuj kod 1P
+10:53:52 CCS: 
+10:53:55 1P28513163-01 3S651277404 Q12
+10:53:55 CCS: 
+10:53:55 ACS: 1P28513163-01
+10:53:55 Response msg: Nie znaleziono pliku konfiguracyjnego: 28513163
+10:53:55 Reset
+10:53:55 Command msg: Zeskanuj kod 1P
+10:53:55 Zeskanuj kod 1P
+10:53:55 ACS: Q12
+10:53:55 Reset
+10:53:55 Command msg: Zeskanuj kod 1P
+10:53:55 Zeskanuj kod 1P
+10:53:55 ACS: 3S651277404
+10:53:55 Reset
+10:53:55 Command msg: Zeskanuj kod 1P
+10:53:55 Zeskanuj kod 1P
+10:53:58 1P28513163-01 3S651277404 Q12
+10:53:58 CCS: 
+10:53:58 ACS: 1P28513163-01
+10:53:58 Response msg: Nie znaleziono pliku konfiguracyjnego: 28513163
+10:53:58 Reset
+10:53:58 Command msg: Zeskanuj kod 1P
+10:53:58 Zeskanuj kod 1P
+10:53:58 ACS: Q12
+10:53:58 Reset
+10:53:58 Command msg: Zeskanuj kod 1P
+10:53:58 Zeskanuj kod 1P
+10:53:58 ACS: 3S651277404
+10:53:58 Reset
+10:53:58 Command msg: Zeskanuj kod 1P
+10:53:58 Zeskanuj kod 1P
+10:54:01 CCS: 
+10:54:04 CCS: 
+10:54:07 CCS: 
+10:54:10 CCS: 
+10:54:13 1P28691448-01 3S689644310 Q1
+10:54:13 CCS: 
+10:54:13 ACS: 1P28691448-01
+10:54:13 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+10:54:13 Reset
+10:54:13 Command msg: Zeskanuj kod 1P
+10:54:13 Zeskanuj kod 1P
+10:54:13 ACS: Q1
+10:54:13 Reset
+10:54:13 Command msg: Zeskanuj kod 1P
+10:54:13 Zeskanuj kod 1P
+10:54:13 ACS: 3S689644310
+10:54:13 Reset
+10:54:13 Command msg: Zeskanuj kod 1P
+10:54:13 Zeskanuj kod 1P
+10:54:16 1P28691448-01 3S689644310 Q1
+10:54:16 CCS: 
+10:54:16 ACS: 1P28691448-01
+10:54:16 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+10:54:16 Reset
+10:54:16 Command msg: Zeskanuj kod 1P
+10:54:16 Zeskanuj kod 1P
+10:54:16 ACS: Q1
+10:54:16 Reset
+10:54:16 Command msg: Zeskanuj kod 1P
+10:54:16 Zeskanuj kod 1P
+10:54:16 ACS: 3S689644310
+10:54:16 Reset
+10:54:16 Command msg: Zeskanuj kod 1P
+10:54:16 Zeskanuj kod 1P
+10:54:19 CCS: 
+10:54:22 1P28632176-01 3S655365187 Q240
+10:54:22 CCS: 
+10:54:22 ACS: 1P28632176-01
+10:54:22 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+10:54:22 Reset
+10:54:22 Command msg: Zeskanuj kod 1P
+10:54:22 Zeskanuj kod 1P
+10:54:22 ACS: Q240
+10:54:22 Reset
+10:54:22 Command msg: Zeskanuj kod 1P
+10:54:22 Zeskanuj kod 1P
+10:54:22 ACS: 3S655365187
+10:54:22 Reset
+10:54:22 Command msg: Zeskanuj kod 1P
+10:54:22 Zeskanuj kod 1P
+10:54:25 CCS: 
+10:54:28 CCS: 
+10:54:31 CCS: 
+10:54:34 CCS: 
+10:54:37 1P28629580-01 3S641336099 Q6
+10:54:37 CCS: 
+10:54:37 ACS: 1P28629580-01
+10:54:37 Response msg: 
+10:54:37 Command msg: Zeskanuj kod Q
+10:54:37 ACS: Q6
+10:54:37 Command msg: Zeskanuj kod 3S
+10:54:37 ACS: 3S641336099
+10:54:37 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+10:54:37 Przerywana wynik: OK
+10:54:37 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+10:54:38 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+10:54:38 Zapytanie FIS: GETCHILDREN|id=641336099
+10:54:38 Odpowiedz FIS: NO CHILDREN
+10:54:38 Command msg: Zeskanuj barkod produktu
+10:54:38 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+10:54:38 Command msg: Zeskanuj barkod produktu
+10:54:40 Response msg: Produkcja przerywana / Reset
+10:54:40 Reset
+10:54:40 Command msg: Zeskanuj kod 1P
+10:54:40 Zeskanuj kod 1P
+10:54:40 CCS: 
+10:54:43 CCS: 
+10:54:46 1P28629580-01 3S641336099 Q6
+10:54:46 CCS: 
+10:54:46 ACS: 1P28629580-01
+10:54:46 Response msg: 
+10:54:46 Command msg: Zeskanuj kod Q
+10:54:46 ACS: Q6
+10:54:46 Command msg: Zeskanuj kod 3S
+10:54:46 ACS: 3S641336099
+10:54:47 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+10:54:47 Przerywana wynik: OK
+10:54:47 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+10:54:47 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+10:54:47 Zapytanie FIS: GETCHILDREN|id=641336099
+10:54:47 Odpowiedz FIS: NO CHILDREN
+10:54:47 Command msg: Zeskanuj barkod produktu
+10:54:47 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+10:54:47 Command msg: Zeskanuj barkod produktu
+10:54:50 CCS: 3S641336099
+10:54:53 CCS: 3S641336099
+10:54:56 1P28632176-01 3S655365187 Q240
+10:54:56 CCS: 3S641336099
+10:54:59 1P28632176-01 3S655365187 Q240
+10:54:59 CCS: 3S641336099
+10:55:02 1P28632176-01 3S655365187 Q240
+10:55:02 CCS: 3S641336099
+10:55:05 CCS: 3S641336099
+10:56:35 10.235.241.235 B=32 T=1ms TTL=64
+10:56:35 10.128.40.221 B=32 T=124ms TTL=249
+10:56:36 <T>
+10:56:39 CCS: 
+10:56:42 1P28691448-01 3S689644310 Q1
+10:56:42 CCS: 
+10:56:42 ACS: 1P28691448-01
+10:56:42 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+10:56:42 Reset
+10:56:42 Command msg: Zeskanuj kod 1P
+10:56:42 Zeskanuj kod 1P
+10:56:42 ACS: Q1
+10:56:42 Reset
+10:56:42 Command msg: Zeskanuj kod 1P
+10:56:42 Zeskanuj kod 1P
+10:56:42 ACS: 3S689644310
+10:56:42 Reset
+10:56:42 Command msg: Zeskanuj kod 1P
+10:56:42 Zeskanuj kod 1P
+10:56:45 1P28691448-01 3S689644310 Q1
+10:56:45 CCS: 
+10:56:45 ACS: 1P28691448-01
+10:56:45 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+10:56:45 Reset
+10:56:45 Command msg: Zeskanuj kod 1P
+10:56:45 Zeskanuj kod 1P
+10:56:45 ACS: Q1
+10:56:45 Reset
+10:56:45 Command msg: Zeskanuj kod 1P
+10:56:45 Zeskanuj kod 1P
+10:56:45 ACS: 3S689644310
+10:56:45 Reset
+10:56:45 Command msg: Zeskanuj kod 1P
+10:56:45 Zeskanuj kod 1P
+10:56:48 CCS: 
+10:56:51 CCS: 
+10:56:54 1P28629580-01 3S641336099 Q6
+10:56:54 CCS: 
+10:56:54 ACS: 1P28629580-01
+10:56:54 Response msg: 
+10:56:54 Command msg: Zeskanuj kod Q
+10:56:54 ACS: Q6
+10:56:54 Command msg: Zeskanuj kod 3S
+10:56:54 ACS: 3S641336099
+10:56:54 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+10:56:54 Przerywana wynik: OK
+10:56:54 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+10:56:54 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+10:56:54 Zapytanie FIS: GETCHILDREN|id=641336099
+10:56:54 Odpowiedz FIS: NO CHILDREN
+10:56:54 Command msg: Zeskanuj barkod produktu
+10:56:54 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+10:56:54 Command msg: Zeskanuj barkod produktu
+10:56:57 CCS: 3S641336099
+10:57:17 1P28632176-01 3S655365187 Q240
+10:57:17 CCS: 3S641336099
+10:58:08 CCS: 3S641336099
+11:08:57 10.235.241.235 B=32 T=5ms TTL=64
+11:08:57 10.128.40.221 B=32 T=124ms TTL=249
+11:08:58 <T>
+11:09:01 CCS: 
+11:09:04 CCS: 
+11:09:05 Zamykanie programu
+11:37:25 10.235.241.235 B=32 T=3ms TTL=64
+11:37:25 10.128.40.221 B=32 T=124ms TTL=249
+11:37:26 <T>
+11:37:29 CCS: 
+11:37:32 CCS: 
+11:37:35 1P28632176-01 3S655365187 Q240
+11:37:35 CCS: 
+11:37:35 ACS: 1P28632176-01
+11:37:35 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+11:37:35 Reset
+11:37:35 Command msg: Zeskanuj kod 1P
+11:37:35 Zeskanuj kod 1P
+11:37:35 ACS: Q240
+11:37:35 Reset
+11:37:35 Command msg: Zeskanuj kod 1P
+11:37:35 Zeskanuj kod 1P
+11:37:35 ACS: 3S655365187
+11:37:35 Reset
+11:37:35 Command msg: Zeskanuj kod 1P
+11:37:35 Zeskanuj kod 1P
+11:37:38 1P28632176-01 3S655365187 Q240
+11:37:38 CCS: 
+11:37:38 ACS: 1P28632176-01
+11:37:38 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+11:37:38 Reset
+11:37:38 Command msg: Zeskanuj kod 1P
+11:37:38 Zeskanuj kod 1P
+11:37:38 ACS: Q240
+11:37:38 Reset
+11:37:38 Command msg: Zeskanuj kod 1P
+11:37:38 Zeskanuj kod 1P
+11:37:38 ACS: 3S655365187
+11:37:38 Reset
+11:37:38 Command msg: Zeskanuj kod 1P
+11:37:38 Zeskanuj kod 1P
+11:37:41 1P28629580-01 3S641336099 Q6
+11:37:41 CCS: 
+11:37:41 ACS: 1P28629580-01
+11:37:41 Response msg: 
+11:37:41 Command msg: Zeskanuj kod Q
+11:37:41 ACS: Q6
+11:37:41 Command msg: Zeskanuj kod 3S
+11:37:41 ACS: 3S641336099
+11:37:57 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:37:57 Przerywana wynik: OK
+11:37:57 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:37:57 Odpowiedz FIS: 
+11:37:57 Błędna odpowiedź z FIS dla kartonu. Pobierz inny karton. odpowiedź: ERRORUNKNOWN error
+11:37:57 Reset
+11:37:57 Command msg: Zeskanuj kod 1P
+11:37:57 Zeskanuj kod 1P
+11:38:00 CCS: 
+11:38:03 CCS: 
+11:38:06 CCS: 
+11:38:09 CCS: 
+11:38:12 CCS: 
+11:38:15 CCS: 
+11:38:18 CCS: 
+11:38:21 CCS: 
+11:38:24 CCS: 
+11:38:27 CCS: 
+11:38:30 CCS: 
+11:38:33 CCS: 
+11:38:36 1P28629580-01 3S641336099 Q6
+11:38:36 CCS: 
+11:38:36 ACS: 1P28629580-01
+11:38:36 Response msg: 
+11:38:36 Command msg: Zeskanuj kod Q
+11:38:36 ACS: Q6
+11:38:36 Command msg: Zeskanuj kod 3S
+11:38:36 ACS: 3S641336099
+11:38:36 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:38:36 Przerywana wynik: OK
+11:38:36 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:38:37 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:38:37 Zapytanie FIS: GETCHILDREN|id=641336099
+11:38:37 Odpowiedz FIS: NO CHILDREN
+11:38:37 Command msg: Zeskanuj barkod produktu
+11:38:37 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:38:37 Command msg: Zeskanuj barkod produktu
+11:38:38 Response msg: Produkcja przerywana / Reset
+11:38:38 Reset
+11:38:38 Command msg: Zeskanuj kod 1P
+11:38:38 Zeskanuj kod 1P
+11:38:39 CCS: 
+11:38:42 CCS: 
+11:38:45 1P28629580-01 3S641336099 Q6
+11:38:45 CCS: 
+11:38:45 ACS: 1P28629580-01
+11:38:45 Response msg: 
+11:38:45 Command msg: Zeskanuj kod Q
+11:38:45 ACS: Q6
+11:38:45 Command msg: Zeskanuj kod 3S
+11:38:45 ACS: 3S641336099
+11:38:45 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:38:45 Przerywana wynik: OK
+11:38:45 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:38:46 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:38:46 Zapytanie FIS: GETCHILDREN|id=641336099
+11:38:46 Odpowiedz FIS: NO CHILDREN
+11:38:46 Command msg: Zeskanuj barkod produktu
+11:38:46 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:38:46 Command msg: Zeskanuj barkod produktu
+11:38:48 CCS: 3S641336099
+11:38:51 CCS: 3S641336099
+11:38:54 CCS: 3S641336099
+11:38:57 1P28629580-01 3S641336099 Q6
+11:38:57 CCS: 3S641336099
+11:39:01 1P28629580-01 3S641336099 Q6
+11:39:01 CCS: 3S641336099
+11:39:04 CCS: 3S641336099
+11:39:07 CCS: 3S641336099
+11:39:10 CCS: 3S641336099
+11:39:13 CCS: 3S641336099
+11:39:16 CCS: 3S641336099
+11:39:19 CCS: 3S641336099
+11:39:22 CCS: 3S641336099
+11:39:25 CCS: 3S641336099
+11:39:28 CCS: 3S641336099
+11:39:29 Response msg: Produkcja przerywana / Reset
+11:39:29 Reset
+11:39:29 Command msg: Zeskanuj kod 1P
+11:39:29 Zeskanuj kod 1P
+11:39:31 CCS: 
+11:39:34 1P28629580-01 3S641336099 Q6
+11:39:34 CCS: 
+11:39:34 ACS: 1P28629580-01
+11:39:34 Response msg: 
+11:39:34 Command msg: Zeskanuj kod Q
+11:39:34 ACS: Q6
+11:39:34 Command msg: Zeskanuj kod 3S
+11:39:34 ACS: 3S641336099
+11:39:34 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:39:34 Przerywana wynik: OK
+11:39:34 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:39:35 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:39:35 Zapytanie FIS: GETCHILDREN|id=641336099
+11:39:35 Odpowiedz FIS: NO CHILDREN
+11:39:35 Command msg: Zeskanuj barkod produktu
+11:39:35 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:39:35 Command msg: Zeskanuj barkod produktu
+11:39:36 Response msg: Produkcja przerywana / Reset
+11:39:36 Reset
+11:39:36 Command msg: Zeskanuj kod 1P
+11:39:36 Zeskanuj kod 1P
+11:39:37 1P28629580-01 3S641336099 Q6
+11:39:37 CCS: 
+11:39:37 ACS: 1P28629580-01
+11:39:37 Response msg: 
+11:39:37 Command msg: Zeskanuj kod Q
+11:39:37 ACS: Q6
+11:39:37 Command msg: Zeskanuj kod 3S
+11:39:37 ACS: 3S641336099
+11:39:37 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:39:37 Przerywana wynik: OK
+11:39:37 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:39:37 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:39:37 Zapytanie FIS: GETCHILDREN|id=641336099
+11:39:37 Odpowiedz FIS: NO CHILDREN
+11:39:37 Command msg: Zeskanuj barkod produktu
+11:39:37 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:39:37 Command msg: Zeskanuj barkod produktu
+11:39:40 CCS: 3S641336099
+11:39:43 CCS: 3S641336099
+11:39:46 CCS: 3S641336099
+11:39:49 CCS: 3S641336099
+11:39:52 CCS: 3S641336099
+11:39:55 CCS: 3S641336099
+11:39:58 CCS: 3S641336099
+11:40:01 CCS: 3S641336099
+11:40:05 CCS: 3S641336099
+11:40:08 CCS: 3S641336099
+11:40:11 1P28629580-01 3S641336099 Q6
+11:40:11 CCS: 3S641336099
+11:40:14 CCS: 3S641336099
+11:40:14 Response msg: Produkcja przerywana / Reset
+11:40:14 Reset
+11:40:14 Command msg: Zeskanuj kod 1P
+11:40:14 Zeskanuj kod 1P
+11:40:17 CCS: 
+11:40:20 1P28629580-01 3S641336099 Q6
+11:40:20 CCS: 
+11:40:20 ACS: 1P28629580-01
+11:40:20 Response msg: 
+11:40:20 Command msg: Zeskanuj kod Q
+11:40:20 ACS: Q6
+11:40:20 Command msg: Zeskanuj kod 3S
+11:40:20 ACS: 3S641336099
+11:40:20 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:40:20 Przerywana wynik: OK
+11:40:20 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:40:20 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:40:20 Zapytanie FIS: GETCHILDREN|id=641336099
+11:40:20 Odpowiedz FIS: NO CHILDREN
+11:40:20 Command msg: Zeskanuj barkod produktu
+11:40:20 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:40:20 Command msg: Zeskanuj barkod produktu
+11:40:22 Response msg: Produkcja przerywana / Reset
+11:40:22 Reset
+11:40:22 Command msg: Zeskanuj kod 1P
+11:40:22 Zeskanuj kod 1P
+11:40:23 CCS: 
+11:40:26 CCS: 
+11:40:29 1P28629580-01 3S641336099 Q6
+11:40:29 CCS: 
+11:40:29 ACS: 1P28629580-01
+11:40:29 Response msg: 
+11:40:29 Command msg: Zeskanuj kod Q
+11:40:29 ACS: Q6
+11:40:29 Command msg: Zeskanuj kod 3S
+11:40:29 ACS: 3S641336099
+11:40:29 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:40:29 Przerywana wynik: OK
+11:40:29 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:40:29 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:40:29 Zapytanie FIS: GETCHILDREN|id=641336099
+11:40:29 Odpowiedz FIS: NO CHILDREN
+11:40:29 Command msg: Zeskanuj barkod produktu
+11:40:29 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:40:29 Command msg: Zeskanuj barkod produktu
+11:40:31 Response msg: Produkcja przerywana / Reset
+11:40:31 Reset
+11:40:31 Command msg: Zeskanuj kod 1P
+11:40:31 Zeskanuj kod 1P
+11:40:32 1P28629580-01 3S641336099 Q6
+11:40:32 CCS: 
+11:40:32 ACS: 1P28629580-01
+11:40:32 Response msg: 
+11:40:32 Command msg: Zeskanuj kod Q
+11:40:32 ACS: Q6
+11:40:32 Command msg: Zeskanuj kod 3S
+11:40:32 ACS: 3S641336099
+11:40:32 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:40:32 Przerywana wynik: OK
+11:40:32 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:40:32 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:40:32 Zapytanie FIS: GETCHILDREN|id=641336099
+11:40:32 Odpowiedz FIS: NO CHILDREN
+11:40:32 Command msg: Zeskanuj barkod produktu
+11:40:32 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:40:32 Command msg: Zeskanuj barkod produktu
+11:40:35 CCS: 3S641336099
+11:40:38 CCS: 3S641336099
+11:40:41 CCS: 3S641336099
+11:40:44 CCS: 3S641336099
+11:40:47 CCS: 3S641336099
+11:40:50 CCS: 3S641336099
+11:40:53 CCS: 3S641336099
+11:40:56 CCS: 3S641336099
+11:45:20 10.235.241.235 B=32 T=1ms TTL=64
+11:45:21 10.128.40.221 B=32 T=201ms TTL=249
+11:45:21 <T>
+11:45:24 CCS: 
+11:45:27 1P28629580-01 3S641336099 Q6
+11:45:27 CCS: 
+11:45:27 ACS: 1P28629580-01
+11:45:27 Response msg: 
+11:45:27 Command msg: Zeskanuj kod Q
+11:45:27 ACS: Q6
+11:45:27 Command msg: Zeskanuj kod 3S
+11:45:27 ACS: 3S641336099
+11:45:27 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:45:27 Przerywana wynik: OK
+11:45:27 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:45:28 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:45:28 Zapytanie FIS: GETCHILDREN|id=641336099
+11:45:28 Odpowiedz FIS: NO CHILDREN
+11:45:28 Command msg: Zeskanuj barkod produktu
+11:45:28 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:45:28 Command msg: Zeskanuj barkod produktu
+11:45:30 Response msg: Produkcja przerywana / Reset
+11:45:30 Reset
+11:45:30 Command msg: Zeskanuj kod 1P
+11:45:30 Zeskanuj kod 1P
+11:45:30 CCS: 
+11:45:33 CCS: 
+11:45:37 CCS: 
+11:45:40 CCS: 
+11:45:43 CCS: 
+11:45:46 CCS: 
+11:45:49 CCS: 
+11:45:52 CCS: 
+11:45:55 CCS: 
+11:45:58 CCS: 
+11:46:01 CCS: 
+11:46:04 1P28629580-01 3S641336099 Q6
+11:46:04 CCS: 
+11:46:04 ACS: 1P28629580-01
+11:46:04 Response msg: 
+11:46:04 Command msg: Zeskanuj kod Q
+11:46:04 ACS: Q6
+11:46:04 Command msg: Zeskanuj kod 3S
+11:46:04 ACS: 3S641336099
+11:46:04 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:46:04 Przerywana wynik: OK
+11:46:04 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:46:05 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:46:05 Zapytanie FIS: GETCHILDREN|id=641336099
+11:46:05 Odpowiedz FIS: NO CHILDREN
+11:46:05 Command msg: Zeskanuj barkod produktu
+11:46:05 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:46:05 Command msg: Zeskanuj barkod produktu
+11:46:07 1P28629580-01 3S641336099 Q6
+11:46:07 CCS: 3S641336099
+11:46:08 Response msg: Produkcja przerywana / Reset
+11:46:08 Reset
+11:46:08 Command msg: Zeskanuj kod 1P
+11:46:08 Zeskanuj kod 1P
+11:46:08 Zamykanie programu
+11:46:36 10.235.241.235 B=32 T=1ms TTL=64
+11:46:36 10.128.40.221 B=32 T=129ms TTL=249
+11:46:37 <T>
+11:46:40 CCS: 
+11:46:43 1P28629580-01 3S641336099 Q6
+11:46:43 CCS: 
+11:46:43 ACS: 1P28629580-01
+11:46:43 Response msg: 
+11:46:43 Command msg: Zeskanuj kod Q
+11:46:43 ACS: Q6
+11:46:43 Command msg: Zeskanuj kod 3S
+11:46:43 ACS: 3S641336099
+11:46:43 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:46:43 Przerywana wynik: OK
+11:46:43 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:46:43 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:46:43 Zapytanie FIS: GETCHILDREN|id=641336099
+11:46:43 Odpowiedz FIS: NO CHILDREN
+11:46:43 Command msg: Zeskanuj barkod produktu
+11:46:43 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:46:43 Command msg: Zeskanuj barkod produktu
+11:46:46 CCS: 3S641336099
+11:46:49 CCS: 3S641336099
+11:46:52 CCS: 3S641336099
+11:46:55 1P28632176-01 3S655365187 Q240
+11:46:55 CCS: 3S641336099
+11:46:58 1P28632176-01 3S655365187 Q240
+11:46:58 CCS: 3S641336099
+11:47:01 CCS: 3S641336099
+11:47:07 CCS: 3S641336099
+11:47:20 1P28632176-01 3S655365187 Q240
+11:47:20 CCS: 3S641336099
+11:48:11 CCS: 3S641336099
+11:48:46 10.235.241.235 B=32 T=1ms TTL=64
+11:48:47 10.128.40.221 B=32 T=125ms TTL=249
+11:48:47 <T>
+11:48:50 CCS: 
+11:48:53 1P28632176-01 3S655365187 Q240
+11:48:53 CCS: 
+11:48:53 ACS: 1P28632176-01
+11:48:53 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+11:48:53 Reset
+11:48:53 Command msg: Zeskanuj kod 1P
+11:48:53 Zeskanuj kod 1P
+11:48:53 ACS: Q240
+11:48:53 Reset
+11:48:53 Command msg: Zeskanuj kod 1P
+11:48:53 Zeskanuj kod 1P
+11:48:53 ACS: 3S655365187
+11:48:53 Reset
+11:48:53 Command msg: Zeskanuj kod 1P
+11:48:53 Zeskanuj kod 1P
+11:48:56 1P28632176-01 3S655365187 Q240
+11:48:56 CCS: 
+11:48:56 ACS: 1P28632176-01
+11:48:56 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+11:48:56 Reset
+11:48:56 Command msg: Zeskanuj kod 1P
+11:48:56 Zeskanuj kod 1P
+11:48:56 ACS: Q240
+11:48:56 Reset
+11:48:56 Command msg: Zeskanuj kod 1P
+11:48:56 Zeskanuj kod 1P
+11:48:56 ACS: 3S655365187
+11:48:56 Reset
+11:48:56 Command msg: Zeskanuj kod 1P
+11:48:56 Zeskanuj kod 1P
+11:48:59 1P28629580-01 3S641336099 Q6
+11:48:59 CCS: 
+11:48:59 ACS: 1P28629580-01
+11:48:59 Response msg: 
+11:48:59 Command msg: Zeskanuj kod Q
+11:48:59 ACS: Q6
+11:48:59 Command msg: Zeskanuj kod 3S
+11:48:59 ACS: 3S641336099
+11:48:59 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:48:59 Przerywana wynik: OK
+11:48:59 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:49:00 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:49:00 Zapytanie FIS: GETCHILDREN|id=641336099
+11:49:00 Odpowiedz FIS: NO CHILDREN
+11:49:00 Command msg: Zeskanuj barkod produktu
+11:49:00 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:49:00 Command msg: Zeskanuj barkod produktu
+11:49:02 1P28629580-01 3S641336099 Q6
+11:49:02 CCS: 3S641336099
+11:49:02 Na stanowisku powinien znajdować się karton: 3S641336099. Dodaje karton 3S641336099 do produkcji przerywanej i resetuje program. 
+11:49:02 Reset
+11:49:02 Command msg: Zeskanuj kod 1P
+11:49:02 Zeskanuj kod 1P
+11:49:05 1P28632176-01 3S655365187 Q240
+11:49:05 CCS: 
+11:49:05 ACS: 1P28632176-01
+11:49:05 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+11:49:05 Reset
+11:49:05 Command msg: Zeskanuj kod 1P
+11:49:05 Zeskanuj kod 1P
+11:49:05 ACS: Q240
+11:49:05 Reset
+11:49:05 Command msg: Zeskanuj kod 1P
+11:49:05 Zeskanuj kod 1P
+11:49:05 ACS: 3S655365187
+11:49:05 Reset
+11:49:05 Command msg: Zeskanuj kod 1P
+11:49:05 Zeskanuj kod 1P
+11:49:08 CCS: 
+11:49:11 CCS: 
+11:49:15 CCS: 
+11:49:18 CCS: 
+11:49:21 CCS: 
+11:49:24 CCS: 
+11:49:27 CCS: 
+11:49:30 CCS: 
+11:49:33 CCS: 
+11:50:50 10.235.241.235 B=32 T=1ms TTL=64
+11:50:50 10.128.40.221 B=32 T=125ms TTL=249
+11:50:50 <T>
+11:50:54 1P28629580-01 3S641336099 Q6
+11:50:54 CCS: 
+11:50:54 ACS: 1P28629580-01
+11:50:54 Response msg: 
+11:50:54 Command msg: Zeskanuj kod Q
+11:50:54 ACS: Q6
+11:50:54 Command msg: Zeskanuj kod 3S
+11:50:54 ACS: 3S641336099
+11:50:54 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:50:54 Przerywana wynik: OK
+11:50:54 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:50:54 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:50:54 Zapytanie FIS: GETCHILDREN|id=641336099
+11:50:54 Odpowiedz FIS: NO CHILDREN
+11:50:54 Command msg: Zeskanuj barkod produktu
+11:50:54 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:50:54 Command msg: Zeskanuj barkod produktu
+11:50:57 1P28629580-01 3S641336099 Q6
+11:50:57 CCS: 3S641336099
+11:51:00 CCS: 3S641336099
+11:51:03 CCS: 3S641336099
+11:51:06 1P28632176-01 3S655365187 Q240
+11:51:06 CCS: 3S641336099
+11:51:09 1P28632176-01 3S655365187 Q240
+11:51:09 CCS: 3S641336099
+11:51:12 1P28632176-01 3S655365187 Q240
+11:51:12 CCS: 3S641336099
+11:52:44 10.235.241.235 B=32 T=1ms TTL=64
+11:52:44 10.128.40.221 B=32 T=124ms TTL=249
+11:52:45 <T>
+11:52:48 CCS: 
+11:52:51 1P28629580-01 3S641336099 Q6
+11:52:51 CCS: 
+11:52:51 ACS: 1P28629580-01
+11:52:51 Response msg: 
+11:52:51 Command msg: Zeskanuj kod Q
+11:52:51 ACS: Q6
+11:52:51 Command msg: Zeskanuj kod 3S
+11:52:51 ACS: 3S641336099
+11:52:51 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:52:51 Przerywana wynik: OK
+11:52:51 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:52:51 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:52:51 Zapytanie FIS: GETCHILDREN|id=641336099
+11:52:51 Odpowiedz FIS: NO CHILDREN
+11:52:52 Command msg: Zeskanuj barkod produktu
+11:52:52 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:52:52 Command msg: Zeskanuj barkod produktu
+11:52:54 CCS: 3S641336099
+11:52:57 CCS: 3S641336099
+11:53:00 1P28632176-01 3S655365187 Q240
+11:53:00 CCS: 3S641336099
+11:53:03 1P28632176-01 3S655365187 Q240
+11:53:03 CCS: 3S641336099
+11:53:06 1P28632176-01 3S655365187 Q240
+11:53:06 CCS: 3S641336099
+11:53:09 1P28632176-01 3S655365187 Q240
+11:53:09 CCS: 3S641336099
+11:55:21 10.235.241.235 B=32 T=1ms TTL=64
+11:55:21 10.128.40.221 B=32 T=125ms TTL=249
+11:55:22 <T>
+11:55:25 CCS: 
+11:55:28 1P28632176-01 3S655365187 Q240
+11:55:28 CCS: 
+11:55:28 ACS: 1P28632176-01
+11:55:28 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+11:55:28 Reset
+11:55:28 Command msg: Zeskanuj kod 1P
+11:55:28 Zeskanuj kod 1P
+11:55:28 ACS: Q240
+11:55:28 Reset
+11:55:28 Command msg: Zeskanuj kod 1P
+11:55:28 Zeskanuj kod 1P
+11:55:28 ACS: 3S655365187
+11:55:28 Reset
+11:55:28 Command msg: Zeskanuj kod 1P
+11:55:28 Zeskanuj kod 1P
+11:55:31 1P28632176-01 3S655365187 Q240
+11:55:31 CCS: 
+11:55:31 ACS: 1P28632176-01
+11:55:31 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+11:55:31 Reset
+11:55:31 Command msg: Zeskanuj kod 1P
+11:55:31 Zeskanuj kod 1P
+11:55:31 ACS: Q240
+11:55:31 Reset
+11:55:31 Command msg: Zeskanuj kod 1P
+11:55:31 Zeskanuj kod 1P
+11:55:31 ACS: 3S655365187
+11:55:31 Reset
+11:55:31 Command msg: Zeskanuj kod 1P
+11:55:31 Zeskanuj kod 1P
+11:55:34 1P28629580-01 3S641336099 Q6
+11:55:34 CCS: 
+11:55:34 ACS: 1P28629580-01
+11:55:34 Response msg: 
+11:55:34 Command msg: Zeskanuj kod Q
+11:55:34 ACS: Q6
+11:55:34 Command msg: Zeskanuj kod 3S
+11:55:34 ACS: 3S641336099
+11:55:34 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+11:55:34 Przerywana wynik: OK
+11:55:34 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+11:55:35 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+11:55:35 Zapytanie FIS: GETCHILDREN|id=641336099
+11:55:35 Odpowiedz FIS: NO CHILDREN
+11:55:35 Command msg: Zeskanuj barkod produktu
+11:55:35 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+11:55:35 Command msg: Zeskanuj barkod produktu
+11:55:37 1P28629580-01 3S641336099 Q6
+11:55:37 CCS: 3S641336099
+11:55:40 1P28629580-01 3S641336099 Q6
+11:55:40 CCS: 3S641336099
+11:55:43 1P28629580-01 3S641336099 Q6
+11:55:43 CCS: 3S641336099
+11:55:46 CCS: 3S641336099
+11:55:46 Na stanowisku powinien znajdować się karton: 3S641336099. Dodaje karton 3S641336099 do produkcji przerywanej i resetuje program. 
+11:55:46 Reset
+11:55:46 Command msg: Zeskanuj kod 1P
+11:55:46 Zeskanuj kod 1P
+11:55:49 CCS: 
+11:55:53 CCS: 
+11:55:56 CCS: 
+11:55:59 CCS: 
+12:16:29 10.235.241.235 B=32 T=3ms TTL=64
+12:16:30 10.128.40.221 B=32 T=144ms TTL=249
+12:16:30 <T>
+12:16:33 CCS: 
+12:19:44 10.235.241.235 B=32 T=1ms TTL=64
+12:19:44 10.128.40.221 B=32 T=138ms TTL=249
+12:19:44 <T>
+12:19:47 CCS: 
+12:19:47 Empty? 
+12:19:50 CCS: 
+12:19:50 Empty? 
+12:19:53 CCS: 
+12:19:53 Empty? 
+12:19:57 CCS: 
+12:19:57 Empty? 
+12:20:00 CCS: 
+12:20:11 Empty? 
+12:20:13 1P28629580-01 3S641336099 Q6
+12:20:13 CCS: 
+12:20:13 ACS: 1P28629580-01
+12:20:13 Response msg: 
+12:20:13 Command msg: Zeskanuj kod Q
+12:20:13 Empty? 3S641336099
+12:20:13 Na stanowisku powinien znajdować się karton: . Dodaje karton  do produkcji przerywanej i resetuje program. 
+12:20:13 Reset
+12:20:13 Command msg: Zeskanuj kod 1P
+12:20:13 Zeskanuj kod 1P
+12:20:16 CCS: 
+12:20:16 Empty? 
+12:20:19 CCS: 
+12:20:19 Empty? 
+12:48:25 10.235.241.235 B=32 T=17ms TTL=64
+12:48:26 10.128.40.221 B=32 T=135ms TTL=249
+12:48:26 <T>
+12:48:29 CCS: 
+12:48:32 1P28629580-01 3S641336099 Q6
+12:48:32 CCS: 
+12:48:32 ACS: 1P28629580-01
+12:48:32 Response msg: 
+12:48:32 Command msg: Zeskanuj kod Q
+12:48:32 ACS: Q6
+12:48:32 Command msg: Zeskanuj kod 3S
+12:48:32 ACS: 3S641336099
+12:48:34 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+12:48:34 Przerywana wynik: OK
+12:48:34 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+12:48:34 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+12:48:34 Zapytanie FIS: GETCHILDREN|id=641336099
+12:48:34 Odpowiedz FIS: NO CHILDREN
+12:48:34 Command msg: Zeskanuj barkod produktu
+12:48:34 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+12:48:34 Command msg: Zeskanuj barkod produktu
+12:48:36 1P28629580-01 3S641336099 Q6
+12:48:36 CCS: 3S641336099
+12:48:39 CCS: 3S641336099
+12:48:42 1P28632176-01 3S655365187 Q240
+12:48:42 CCS: 3S641336099
+12:48:42 Na stanowisku powinien znajdować się karton: 3S641336099. Dodaje karton 3S641336099 do produkcji przerywanej i resetuje program. 
+12:48:42 Reset
+12:48:42 Command msg: Zeskanuj kod 1P
+12:48:42 Zeskanuj kod 1P
+12:48:45 1P28632176-01 3S655365187 Q240
+12:48:45 CCS: 
+12:48:45 ACS: 1P28632176-01
+12:48:45 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+12:48:45 Reset
+12:48:45 Command msg: Zeskanuj kod 1P
+12:48:45 Zeskanuj kod 1P
+12:48:45 ACS: Q240
+12:48:45 Reset
+12:48:45 Command msg: Zeskanuj kod 1P
+12:48:45 Zeskanuj kod 1P
+12:48:45 ACS: 3S655365187
+12:48:45 Reset
+12:48:45 Command msg: Zeskanuj kod 1P
+12:48:45 Zeskanuj kod 1P
+12:48:48 CCS: 
+12:48:51 CCS: 
+12:48:54 1P28629580-01 3S641336099 Q6
+12:48:54 CCS: 
+12:48:54 ACS: 1P28629580-01
+12:48:54 Response msg: 
+12:48:54 Command msg: Zeskanuj kod Q
+12:48:54 ACS: Q6
+12:48:54 Command msg: Zeskanuj kod 3S
+12:48:54 ACS: 3S641336099
+12:48:54 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+12:48:54 Przerywana wynik: OK
+12:48:54 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+12:48:55 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+12:48:55 Zapytanie FIS: GETCHILDREN|id=641336099
+12:48:55 Odpowiedz FIS: NO CHILDREN
+12:48:55 Command msg: Zeskanuj barkod produktu
+12:48:55 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+12:48:55 Command msg: Zeskanuj barkod produktu
+12:48:57 1P28629580-01 3S641336099 Q6
+12:48:57 CCS: 3S641336099
+12:49:00 1P28629580-01 3S641336099 Q6
+12:49:00 CCS: 3S641336099
+12:49:03 1P28629580-01 3S641336099 Q6
+12:49:03 CCS: 3S641336099
+12:49:06 1P28629580-01 3S641336099 Q6
+12:49:06 CCS: 3S641336099
+12:49:10 1P28629580-01 3S641336099 Q6
+12:49:10 CCS: 3S641336099
+12:49:13 CCS: 3S641336099
+12:49:16 CCS: 3S641336099
+12:49:19 CCS: 3S641336099
+12:49:22 CCS: 3S641336099
+12:49:25 CCS: 3S641336099
+12:49:28 CCS: 3S641336099
+12:49:31 CCS: 3S641336099
+12:49:34 1P28691448-01 3S689644310 Q1
+12:49:34 CCS: 3S641336099
+12:49:34 Na stanowisku powinien znajdować się karton: 3S641336099. Dodaje karton 3S641336099 do produkcji przerywanej i resetuje program. 
+12:49:34 Reset
+12:49:34 Command msg: Zeskanuj kod 1P
+12:49:34 Zeskanuj kod 1P
+12:49:37 CCS: 
+12:49:40 CCS: 
+12:49:43 CCS: 
+12:49:46 CCS: 
+12:49:49 CCS: 
+12:49:52 CCS: 
+12:49:55 CCS: 
+12:50:01 10.235.241.235 B=32 T=1ms TTL=64
+12:50:01 10.128.40.221 B=32 T=129ms TTL=249
+12:50:02 <T>
+12:50:05 CCS: 
+12:50:08 CCS: 
+12:50:11 1P28650749-01 3S659156181 Q240
+12:50:11 CCS: 
+12:50:11 ACS: 1P28650749-01
+12:50:11 Response msg: Nie znaleziono pliku konfiguracyjnego: 28650749
+12:50:11 Reset
+12:50:11 Command msg: Zeskanuj kod 1P
+12:50:11 Zeskanuj kod 1P
+12:50:11 ACS: Q240
+12:50:11 Reset
+12:50:11 Command msg: Zeskanuj kod 1P
+12:50:11 Zeskanuj kod 1P
+12:50:11 ACS: 3S659156181
+12:50:11 Reset
+12:50:11 Command msg: Zeskanuj kod 1P
+12:50:11 Zeskanuj kod 1P
+12:50:14 1P28650749-01 3S659156181 Q240
+12:50:14 CCS: 
+12:50:14 ACS: 1P28650749-01
+12:50:14 Response msg: Nie znaleziono pliku konfiguracyjnego: 28650749
+12:50:14 Reset
+12:50:14 Command msg: Zeskanuj kod 1P
+12:50:14 Zeskanuj kod 1P
+12:50:14 ACS: Q240
+12:50:14 Reset
+12:50:14 Command msg: Zeskanuj kod 1P
+12:50:14 Zeskanuj kod 1P
+12:50:14 ACS: 3S659156181
+12:50:14 Reset
+12:50:14 Command msg: Zeskanuj kod 1P
+12:50:14 Zeskanuj kod 1P
+12:50:17 1P28629580-01 3S641336099 Q6
+12:50:17 CCS: 
+12:50:17 ACS: 1P28629580-01
+12:50:17 Response msg: 
+12:50:17 Command msg: Zeskanuj kod Q
+12:50:17 ACS: Q6
+12:50:17 Command msg: Zeskanuj kod 3S
+12:50:17 ACS: 3S641336099
+12:50:17 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+12:50:17 Przerywana wynik: OK
+12:50:17 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+12:50:18 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+12:50:18 Zapytanie FIS: GETCHILDREN|id=641336099
+12:50:18 Odpowiedz FIS: NO CHILDREN
+12:50:18 Command msg: Zeskanuj barkod produktu
+12:50:18 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+12:50:18 Command msg: Zeskanuj barkod produktu
+12:50:20 1P28629580-01 3S641336099 Q6
+12:50:20 CCS: 3S641336099
+12:50:23 CCS: 3S641336099
+12:50:26 1P28691448-01 3S689644310 Q1
+12:50:26 CCS: 3S641336099
+12:50:26 Na stanowisku powinien znajdować się karton: 3S641336099. Dodaje karton 3S641336099 do produkcji przerywanej i resetuje program. 
+12:50:26 Reset
+12:50:26 Command msg: Zeskanuj kod 1P
+12:50:26 Zeskanuj kod 1P
+12:50:29 1P28691448-01 3S689644310 Q1
+12:50:29 CCS: 
+12:50:29 ACS: 1P28691448-01
+12:50:29 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+12:50:29 Reset
+12:50:29 Command msg: Zeskanuj kod 1P
+12:50:29 Zeskanuj kod 1P
+12:50:29 ACS: Q1
+12:50:29 Reset
+12:50:29 Command msg: Zeskanuj kod 1P
+12:50:29 Zeskanuj kod 1P
+12:50:29 ACS: 3S689644310
+12:50:29 Reset
+12:50:29 Command msg: Zeskanuj kod 1P
+12:50:29 Zeskanuj kod 1P
+12:50:32 1P28691448-01 3S689644310 Q1
+12:50:32 CCS: 
+12:50:32 ACS: 1P28691448-01
+12:50:32 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+12:50:32 Reset
+12:50:32 Command msg: Zeskanuj kod 1P
+12:50:32 Zeskanuj kod 1P
+12:50:32 ACS: Q1
+12:50:32 Reset
+12:50:32 Command msg: Zeskanuj kod 1P
+12:50:32 Zeskanuj kod 1P
+12:50:32 ACS: 3S689644310
+12:50:32 Reset
+12:50:32 Command msg: Zeskanuj kod 1P
+12:50:33 Zeskanuj kod 1P
+12:50:35 1P28691448-01 3S689644310 Q1
+12:50:35 CCS: 
+12:50:35 ACS: 1P28691448-01
+12:50:35 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+12:50:35 Reset
+12:50:36 Command msg: Zeskanuj kod 1P
+12:50:36 Zeskanuj kod 1P
+12:50:36 ACS: Q1
+12:50:36 Reset
+12:50:36 Command msg: Zeskanuj kod 1P
+12:50:36 Zeskanuj kod 1P
+12:50:36 ACS: 3S689644310
+12:50:36 Reset
+12:50:36 Command msg: Zeskanuj kod 1P
+12:50:36 Zeskanuj kod 1P
+12:50:39 1P28691448-01 3S689644310 Q1
+12:50:39 CCS: 
+12:50:39 ACS: 1P28691448-01
+12:50:39 Response msg: Nie znaleziono pliku konfiguracyjnego: 28691448
+12:50:39 Reset
+12:50:39 Command msg: Zeskanuj kod 1P
+12:50:39 Zeskanuj kod 1P
+12:50:39 ACS: Q1
+12:50:39 Reset
+12:50:39 Command msg: Zeskanuj kod 1P
+12:50:39 Zeskanuj kod 1P
+12:50:39 ACS: 3S689644310
+12:50:39 Reset
+12:50:39 Command msg: Zeskanuj kod 1P
+12:50:39 Zeskanuj kod 1P
+12:50:42 CCS: 
+12:50:45 1P28513163-01 3S651277404 Q12
+12:50:45 CCS: 
+12:50:45 ACS: 1P28513163-01
+12:50:45 Response msg: Nie znaleziono pliku konfiguracyjnego: 28513163
+12:50:45 Reset
+12:50:45 Command msg: Zeskanuj kod 1P
+12:50:45 Zeskanuj kod 1P
+12:50:45 ACS: Q12
+12:50:45 Reset
+12:50:45 Command msg: Zeskanuj kod 1P
+12:50:45 Zeskanuj kod 1P
+12:50:45 ACS: 3S651277404
+12:50:45 Reset
+12:50:45 Command msg: Zeskanuj kod 1P
+12:50:45 Zeskanuj kod 1P
+12:50:48 CCS: 
+12:50:51 1P28632176-01 3S655991115 Q1
+12:50:51 CCS: 
+12:50:51 ACS: 1P28632176-01
+12:50:51 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+12:50:51 Reset
+12:50:51 Command msg: Zeskanuj kod 1P
+12:50:51 Zeskanuj kod 1P
+12:50:51 ACS: Q1
+12:50:51 Reset
+12:50:51 Command msg: Zeskanuj kod 1P
+12:50:51 Zeskanuj kod 1P
+12:50:51 ACS: 3S655991115
+12:50:51 Reset
+12:50:51 Command msg: Zeskanuj kod 1P
+12:50:51 Zeskanuj kod 1P
+12:50:54 CCS: 
+12:50:57 1P28632176-01 3S655365187 Q240
+12:50:57 CCS: 
+12:50:57 ACS: 1P28632176-01
+12:50:57 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+12:50:57 Reset
+12:50:57 Command msg: Zeskanuj kod 1P
+12:50:57 Zeskanuj kod 1P
+12:50:57 ACS: Q240
+12:50:57 Reset
+12:50:57 Command msg: Zeskanuj kod 1P
+12:50:57 Zeskanuj kod 1P
+12:50:57 ACS: 3S655365187
+12:50:57 Reset
+12:50:57 Command msg: Zeskanuj kod 1P
+12:50:57 Zeskanuj kod 1P
+12:51:00 1P28632176-01 3S655365187 Q240
+12:51:00 CCS: 
+12:51:00 ACS: 1P28632176-01
+12:51:00 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+12:51:00 Reset
+12:51:00 Command msg: Zeskanuj kod 1P
+12:51:00 Zeskanuj kod 1P
+12:51:00 ACS: Q240
+12:51:00 Reset
+12:51:00 Command msg: Zeskanuj kod 1P
+12:51:00 Zeskanuj kod 1P
+12:51:00 ACS: 3S655365187
+12:51:00 Reset
+12:51:00 Command msg: Zeskanuj kod 1P
+12:51:00 Zeskanuj kod 1P
+12:51:03 1P28632176-01 3S655365187 Q240
+12:51:03 CCS: 
+12:51:03 ACS: 1P28632176-01
+12:51:03 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+12:51:03 Reset
+12:51:03 Command msg: Zeskanuj kod 1P
+12:51:03 Zeskanuj kod 1P
+12:51:03 ACS: Q240
+12:51:03 Reset
+12:51:03 Command msg: Zeskanuj kod 1P
+12:51:03 Zeskanuj kod 1P
+12:51:03 ACS: 3S655365187
+12:51:03 Reset
+12:51:03 Command msg: Zeskanuj kod 1P
+12:51:03 Zeskanuj kod 1P
+12:51:06 1P28632176-01 3S655365187 Q240
+12:51:06 CCS: 
+12:51:06 ACS: 1P28632176-01
+12:51:06 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+12:51:06 Reset
+12:51:06 Command msg: Zeskanuj kod 1P
+12:51:06 Zeskanuj kod 1P
+12:51:06 ACS: Q240
+12:51:06 Reset
+12:51:06 Command msg: Zeskanuj kod 1P
+12:51:06 Zeskanuj kod 1P
+12:51:06 ACS: 3S655365187
+12:51:06 Reset
+12:51:06 Command msg: Zeskanuj kod 1P
+12:51:06 Zeskanuj kod 1P
+12:51:09 CCS: 
+12:51:12 CCS: 
+12:51:15 CCS: 
+12:51:18 CCS: 
+12:51:21 CCS: 
+12:51:24 CCS: 
+12:51:27 CCS: 
+12:51:30 CCS: 
+12:51:33 CCS: 
+12:51:36 CCS: 
+12:51:39 CCS: 
+12:51:43 CCS: 
+12:51:46 CCS: 
+12:51:49 CCS: 
+12:51:52 CCS: 
+12:51:55 CCS: 
+12:51:58 CCS: 
+12:52:01 CCS: 
+12:52:04 CCS: 
+12:52:07 CCS: 
+12:52:10 CCS: 
+12:52:13 CCS: 
+12:52:16 CCS: 
+12:52:19 CCS: 
+12:52:22 CCS: 
+12:52:25 CCS: 
+12:52:28 CCS: 
+12:52:31 CCS: 
+12:52:34 CCS: 
+12:52:37 CCS: 
+12:52:40 CCS: 
+12:52:43 CCS: 
+12:52:47 CCS: 
+12:52:50 CCS: 
+12:52:53 CCS: 
+12:52:56 CCS: 
+12:52:59 CCS: 
+12:53:02 CCS: 
+12:53:05 CCS: 
+12:53:08 CCS: 
+12:53:11 CCS: 
+12:53:14 CCS: 
+12:53:17 CCS: 
+12:53:20 CCS: 
+12:53:23 CCS: 
+12:53:26 CCS: 
+12:53:29 CCS: 
+12:53:32 CCS: 
+12:53:35 CCS: 
+12:53:38 CCS: 
+12:53:41 CCS: 
+12:53:44 CCS: 
+12:53:47 CCS: 
+12:53:50 CCS: 
+12:53:54 CCS: 
+12:53:57 CCS: 
+12:54:00 CCS: 
+12:54:03 CCS: 
+12:54:06 CCS: 
+12:54:09 CCS: 
+12:54:12 CCS: 
+12:54:15 CCS: 
+12:54:18 CCS: 
+12:54:21 CCS: 
+12:54:24 CCS: 
+12:54:27 CCS: 
+12:54:30 CCS: 
+12:54:33 CCS: 
+12:54:36 CCS: 
+12:54:39 CCS: 
+12:54:42 CCS: 
+12:54:45 CCS: 
+12:54:48 CCS: 
+12:54:51 CCS: 
+12:54:54 CCS: 
+12:54:58 CCS: 
+12:55:01 CCS: 
+12:55:04 CCS: 
+12:55:07 CCS: 
+12:55:10 CCS: 
+12:55:13 CCS: 
+12:55:16 CCS: 
+12:55:19 CCS: 
+12:55:22 CCS: 
+12:55:25 CCS: 
+12:55:28 CCS: 
+12:55:31 CCS: 
+12:55:34 CCS: 
+12:55:37 CCS: 
+12:55:40 CCS: 
+12:55:43 CCS: 
+12:55:46 CCS: 
+12:55:49 CCS: 
+12:55:52 CCS: 
+12:55:55 CCS: 
+12:55:58 CCS: 
+12:56:02 CCS: 
+12:56:05 CCS: 
+12:56:08 CCS: 
+12:56:11 CCS: 
+12:56:14 CCS: 
+12:56:17 CCS: 
+12:56:20 CCS: 
+12:56:23 CCS: 
+12:56:26 CCS: 
+12:56:29 CCS: 
+12:56:32 CCS: 
+12:56:35 CCS: 
+12:56:38 CCS: 
+12:56:41 CCS: 
+12:56:44 CCS: 
+12:56:47 CCS: 
+12:56:50 CCS: 
+12:56:53 CCS: 
+12:56:56 CCS: 
+12:56:59 CCS: 
+12:57:02 CCS: 
+12:57:05 CCS: 
+12:57:09 CCS: 
+12:57:12 CCS: 
+12:57:15 CCS: 
+12:57:18 CCS: 
+12:57:21 CCS: 
+12:57:24 CCS: 
+12:57:27 CCS: 
+12:57:30 CCS: 
+12:57:33 CCS: 
+12:57:36 CCS: 
+12:57:39 CCS: 
+12:57:42 CCS: 
+12:57:45 CCS: 
+12:57:48 CCS: 
+12:57:51 CCS: 
+12:57:54 CCS: 
+12:57:57 CCS: 
+12:58:00 CCS: 
+12:58:03 CCS: 
+12:58:06 CCS: 
+12:58:09 CCS: 
+12:58:13 CCS: 
+12:58:16 CCS: 
+12:58:19 CCS: 
+12:58:22 CCS: 
+12:58:25 CCS: 
+12:58:28 CCS: 
+12:58:31 CCS: 
+12:58:34 CCS: 
+12:58:37 CCS: 
+12:58:40 CCS: 
+12:58:43 CCS: 
+12:58:46 CCS: 
+12:58:49 CCS: 
+12:58:52 CCS: 
+12:58:55 CCS: 
+12:58:58 CCS: 
+12:59:01 CCS: 
+12:59:04 CCS: 
+12:59:07 CCS: 
+12:59:10 CCS: 
+12:59:13 CCS: 
+12:59:17 CCS: 
+12:59:20 CCS: 
+12:59:23 CCS: 
+12:59:26 CCS: 
+12:59:29 CCS: 
+12:59:32 CCS: 
+12:59:35 CCS: 
+12:59:38 CCS: 
+12:59:41 CCS: 
+12:59:44 CCS: 
+12:59:47 CCS: 
+12:59:50 CCS: 
+12:59:53 CCS: 
+12:59:56 CCS: 
+12:59:59 CCS: 
+01:00:02 CCS: 
+01:00:05 CCS: 
+01:00:08 CCS: 
+01:00:11 CCS: 
+01:00:14 CCS: 
+01:00:17 CCS: 
+01:00:20 CCS: 
+01:00:24 CCS: 
+01:00:27 CCS: 
+01:00:30 CCS: 
+01:00:33 CCS: 
+01:00:36 CCS: 
+01:00:39 CCS: 
+01:00:42 CCS: 
+01:00:45 CCS: 
+01:00:48 CCS: 
+01:00:51 CCS: 
+01:00:54 CCS: 
+01:00:57 CCS: 
+01:01:00 CCS: 
+01:01:03 CCS: 
+01:01:06 CCS: 
+01:01:09 CCS: 
+01:01:12 CCS: 
+01:01:15 CCS: 
+01:01:18 CCS: 
+01:01:21 CCS: 
+01:01:24 CCS: 
+01:01:28 CCS: 
+01:01:31 CCS: 
+01:01:34 CCS: 
+01:01:37 CCS: 
+01:01:40 CCS: 
+01:01:43 CCS: 
+01:01:46 CCS: 
+01:01:49 CCS: 
+01:01:52 CCS: 
+01:01:55 CCS: 
+01:01:58 CCS: 
+01:02:01 CCS: 
+01:02:04 CCS: 
+01:02:06 Zamykanie programu
+01:04:07 10.235.241.235 B=32 T=1ms TTL=64
+01:04:07 10.128.40.221 B=32 T=132ms TTL=249
+01:04:08 <T>
+01:04:11 Zamykanie programu
+01:32:50 10.235.241.235 B=32 T=7ms TTL=64
+01:32:50 10.128.40.221 B=32 T=133ms TTL=249
+01:32:51 <T>
+01:32:54 Zamykanie programu
+02:42:06 10.235.241.235 B=32 T=3ms TTL=64
+02:42:06 10.128.40.221 B=32 T=124ms TTL=249
+02:42:07 <T>
+02:42:10 ACS: 1P28632176-01
+02:42:10 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+02:42:10 Reset
+02:42:10 Command msg: Zeskanuj kod 1P
+02:42:10 Zeskanuj kod 1P
+02:42:10 ACS: Q240
+02:42:10 Reset
+02:42:10 Command msg: Zeskanuj kod 1P
+02:42:10 Zeskanuj kod 1P
+02:42:10 ACS: 3S655365187
+02:42:10 Reset
+02:42:10 Command msg: Zeskanuj kod 1P
+02:42:10 Zeskanuj kod 1P
+02:42:13 ACS: 1P28632176-01
+02:42:13 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+02:42:13 Reset
+02:42:13 Command msg: Zeskanuj kod 1P
+02:42:13 Zeskanuj kod 1P
+02:42:13 ACS: Q240
+02:42:13 Reset
+02:42:13 Command msg: Zeskanuj kod 1P
+02:42:13 Zeskanuj kod 1P
+02:42:13 ACS: 3S655365187
+02:42:13 Reset
+02:42:13 Command msg: Zeskanuj kod 1P
+02:42:13 Zeskanuj kod 1P
+02:42:19 ACS: 1P28632176-01
+02:42:19 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+02:42:19 Reset
+02:42:19 Command msg: Zeskanuj kod 1P
+02:42:19 Zeskanuj kod 1P
+02:42:19 ACS: Q1
+02:42:19 Reset
+02:42:19 Command msg: Zeskanuj kod 1P
+02:42:19 Zeskanuj kod 1P
+02:42:19 ACS: 3S655991115
+02:42:19 Reset
+02:42:19 Command msg: Zeskanuj kod 1P
+02:42:19 Zeskanuj kod 1P
+02:42:22 ACS: 1P28632176-01
+02:42:22 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
+02:42:22 Reset
+02:42:22 Command msg: Zeskanuj kod 1P
+02:42:22 Zeskanuj kod 1P
+02:42:22 ACS: Q1
+02:42:22 Reset
+02:42:22 Command msg: Zeskanuj kod 1P
+02:42:22 Zeskanuj kod 1P
+02:42:22 ACS: 3S655991115
+02:42:22 Reset
+02:42:22 Command msg: Zeskanuj kod 1P
+02:42:22 Zeskanuj kod 1P
+02:42:28 ACS: 1P28650749-01
+02:42:28 Response msg: Nie znaleziono pliku konfiguracyjnego: 28650749
+02:42:28 Reset
+02:42:28 Command msg: Zeskanuj kod 1P
+02:42:28 Zeskanuj kod 1P
+02:42:28 ACS: Q240
+02:42:28 Reset
+02:42:28 Command msg: Zeskanuj kod 1P
+02:42:28 Zeskanuj kod 1P
+02:42:28 ACS: 3S659156181
+02:42:28 Reset
+02:42:28 Command msg: Zeskanuj kod 1P
+02:42:28 Zeskanuj kod 1P
+02:42:38 ACS: 1P28629580-01
+02:42:38 Response msg: 
+02:42:38 Command msg: Zeskanuj kod Q
+02:42:38 ACS: Q6
+02:42:38 Command msg: Zeskanuj kod 3S
+02:42:38 ACS: 3S641336099
+02:42:39 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+02:42:39 Przerywana wynik: OK
+02:42:39 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+02:42:39 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+02:42:39 Zapytanie FIS: GETCHILDREN|id=641336099
+02:42:39 Odpowiedz FIS: NO CHILDREN
+02:42:39 Command msg: Zeskanuj barkod produktu
+02:42:39 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+02:42:39 Command msg: Zeskanuj barkod produktu
+03:16:00 10.235.241.235 B=32 T=12ms TTL=64
+03:16:00 10.128.40.221 B=32 T=151ms TTL=249
+03:16:01 <T>
+03:16:16 Zamykanie programu
+03:16:58 10.235.241.235 B=32 T=1ms TTL=64
+03:16:58 10.128.40.221 B=32 T=151ms TTL=249
+03:16:58 <T>
+03:17:08 ACS: 1P28629580-01
+03:17:08 Response msg: 
+03:17:08 Command msg: Zeskanuj kod Q
+03:17:08 ACS: Q6
+03:17:08 Command msg: Zeskanuj kod 3S
+03:17:08 ACS: 3S641336099
+03:17:08 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
+03:17:08 Przerywana wynik: OK
+03:17:08 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580|status=PASS
+03:17:08 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
+03:17:08 Zapytanie FIS: GETCHILDREN|id=641336099
+03:17:08 Odpowiedz FIS: NO CHILDREN
+03:17:08 Command msg: Zeskanuj barkod produktu
+03:17:08 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
+03:17:08 Command msg: Zeskanuj barkod produktu

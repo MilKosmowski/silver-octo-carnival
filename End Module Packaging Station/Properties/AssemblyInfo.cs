@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("CrPackStation")]
+[assembly: AssemblyTitle("Central Pack Station")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Delphi Testing Lab")]
-[assembly: AssemblyProduct("CrPackStation")]
-[assembly: AssemblyCopyright("Copyright © Delphi Testing Lab 2018")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Central Pack Station")]
+[assembly: AssemblyCopyright("Miłosz Kosmowski")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
