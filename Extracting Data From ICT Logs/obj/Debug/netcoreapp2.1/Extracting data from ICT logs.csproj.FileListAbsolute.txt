@@ -1,0 +1,11 @@
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\bin\Debug\netcoreapp2.1\Extracting data from ICT logs.deps.json
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\bin\Debug\netcoreapp2.1\Extracting data from ICT logs.runtimeconfig.json
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\bin\Debug\netcoreapp2.1\Extracting data from ICT logs.runtimeconfig.dev.json
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\bin\Debug\netcoreapp2.1\Extracting data from ICT logs.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\bin\Debug\netcoreapp2.1\Extracting data from ICT logs.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\obj\Debug\netcoreapp2.1\Extracting data from ICT logs.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\obj\Debug\netcoreapp2.1\Extracting data from ICT logs.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\obj\Debug\netcoreapp2.1\Extracting data from ICT logs.AssemblyInfoInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\obj\Debug\netcoreapp2.1\Extracting data from ICT logs.AssemblyInfo.cs
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\obj\Debug\netcoreapp2.1\Extracting data from ICT logs.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Extracting Data From ICT Logs\obj\Debug\netcoreapp2.1\Extracting data from ICT logs.pdb

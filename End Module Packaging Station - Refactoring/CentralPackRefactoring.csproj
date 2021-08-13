@@ -8,8 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2D262481-C6C4-4466-9DD9-D3ADE8B49405}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Central_pack_Refactoring</RootNamespace>
-    <AssemblyName>Central_pack_Refactoring</AssemblyName>
+    <RootNamespace>Central_pack</RootNamespace>
+    <AssemblyName>Central_pack</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
