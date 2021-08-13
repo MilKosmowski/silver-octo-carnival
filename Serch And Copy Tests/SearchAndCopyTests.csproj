@@ -65,11 +65,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomExtensions\CustomExtensions.csproj">
+    <ProjectReference Include="..\Custom Extensions\CustomExtensions.csproj">
       <Project>{1acf6e8d-20ed-4ebe-adc4-4b9672e4ca61}</Project>
       <Name>CustomExtensions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SerchAndCopy\SearchAndCopy.csproj">
+    <ProjectReference Include="..\Serch And Copy\SearchAndCopy.csproj">
       <Project>{439A69A8-3594-4980-BD8F-298E1602B7DE}</Project>
       <Name>SearchAndCopy</Name>
     </ProjectReference>
