@@ -1,0 +1,13 @@
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\bin\Debug\SearchAndCopy.exe.config
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\bin\Debug\SearchAndCopy.exe
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\bin\Debug\SearchAndCopy.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\bin\Debug\CustomExtensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\bin\Debug\CustomExtensions.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchAndCopy.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchWindow.SearchWindowViewModel.resources
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchAndCopy.Properties.Resources.resources
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchAndCopy.csproj.GenerateResource.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchAndCopy.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchAndCopy.csproj.CopyComplete
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchAndCopy.exe
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy\obj\Debug\SearchAndCopy.pdb

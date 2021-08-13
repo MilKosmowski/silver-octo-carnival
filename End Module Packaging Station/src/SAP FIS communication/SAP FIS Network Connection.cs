@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     partial class Declarations
     {

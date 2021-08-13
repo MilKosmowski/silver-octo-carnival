@@ -1,114 +1,0 @@
-07:35:20 Zamykanie programu
-12:37:26 <T>
-12:37:33 Zamykanie programu
-01:24:13 <T>
-01:24:16 Zamykanie programu
-02:03:01 <T>
-02:03:57 Zamykanie programu
-02:57:27 <T>
-02:57:43 Zamykanie programu
-02:58:17 <T>
-02:58:23 212121211P28629580-01 3S641336099 Q6
-02:58:23 ACS: 1P28629580-01
-02:58:23 Response msg: 
-02:58:23 Command msg: Zeskanuj kod Q
-02:58:23 ACS: Q6
-02:58:23 Command msg: Zeskanuj kod 3S
-02:58:23 ACS: 3S641336099
-02:58:23 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-02:58:23 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-02:58:24 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-02:58:24 Przerywana wynik: OK
-02:58:24 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580-01|status=PASS
-02:59:29 <T>
-02:59:35 212121211P28629580-01 3S641336099 Q6
-02:59:35 ACS: 1P28629580-01
-02:59:35 Response msg: 
-02:59:35 Command msg: Zeskanuj kod Q
-02:59:35 ACS: Q6
-02:59:35 Command msg: Zeskanuj kod 3S
-02:59:35 ACS: 3S641336099
-02:59:35 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-02:59:35 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-02:59:35 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-02:59:35 Przerywana wynik: OK
-02:59:35 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580-01|status=PASS
-03:04:41 <T>
-03:04:47 212121211P28629580-01 3S641336099 Q6
-03:04:47 ACS: 1P28629580-01
-03:04:47 Response msg: 
-03:04:47 Command msg: Zeskanuj kod Q
-03:04:47 ACS: Q6
-03:04:47 Command msg: Zeskanuj kod 3S
-03:04:47 ACS: 3S641336099
-03:04:47 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:04:47 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:04:47 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-03:04:47 Przerywana wynik: OK
-03:04:47 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580-01|status=PASS
-03:05:11 <T>
-03:05:17 212121211P28629580-01 3S641336099 Q6
-03:05:17 ACS: 1P28629580-01
-03:05:17 Response msg: 
-03:05:17 Command msg: Zeskanuj kod Q
-03:05:17 ACS: Q6
-03:05:17 Command msg: Zeskanuj kod 3S
-03:05:17 ACS: 3S641336099
-03:05:17 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:05:17 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:05:17 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-03:05:17 Przerywana wynik: OK
-03:05:17 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580-01|status=PASS
-03:06:19 <T>
-03:06:28 212121211P28629580-01 3S641336099 Q6
-03:06:28 ACS: 1P28629580-01
-03:06:28 Response msg: 
-03:06:28 Command msg: Zeskanuj kod Q
-03:06:28 ACS: Q6
-03:06:28 Command msg: Zeskanuj kod 3S
-03:06:28 ACS: 3S641336099
-03:06:28 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:06:28 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:06:28 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-03:06:28 Przerywana wynik: OK
-03:06:28 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580-01|status=PASS
-03:07:23 <T>
-03:07:32 212121211P28629580-01 3S641336099 Q6
-03:07:32 ACS: 1P28629580-01
-03:07:32 Response msg: 
-03:07:32 Command msg: Zeskanuj kod Q
-03:07:32 ACS: Q6
-03:07:32 Command msg: Zeskanuj kod 3S
-03:07:32 ACS: 3S641336099
-03:07:32 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:07:32 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:07:32 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-03:07:32 Przerywana wynik: OK
-03:13:30 <T>
-03:13:33 212121211P28629580-01 3S641336099 Q6
-03:13:33 ACS: 1P28629580-01
-03:13:33 Response msg: 
-03:13:33 Command msg: Zeskanuj kod Q
-03:13:33 ACS: Q6
-03:13:33 Command msg: Zeskanuj kod 3S
-03:13:33 ACS: 3S641336099
-03:14:57 error System.InvalidOperationException: The operation is not allowed on non-connected sockets.   at System.Net.Sockets.TcpClient.GetStream()   at Central_pack.Declarations.StartFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 139 nieudane połączenie z FIS
-03:31:10 <T>
-03:31:16 212121211P28629580-01 3S641336099 Q6
-03:31:16 ACS: 1P28629580-01
-03:31:16 Response msg: 
-03:31:16 Command msg: Zeskanuj kod Q
-03:31:16 ACS: Q6
-03:31:16 Command msg: Zeskanuj kod 3S
-03:31:16 ACS: 3S641336099
-03:31:32 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-03:31:32 Przerywana wynik: OK
-03:31:52 Zapytanie FIS: BCRTCN|lot=641336099|process=PACK|station=CENTRAL_PACK_9|qty=6|delphipartnumber=28629580-01|status=PASS
-03:31:52 Odpowiedz FIS: BCRTCNACK|lot=641336099|status=PASS|msg=nr partii: 641336099, istnieje juz w bazie FIS-QTS
-03:31:57 Zapytanie FIS: GETCHILDREN|id=641336099
-03:31:57 Odpowiedz FIS: NO CHILDREN
-03:31:57 LoadPrzerywana OK \\central_pack_8\Result\PrzerywanaGlobal\CartonsOnHold.txt
-03:31:57 LegacyRemoveFromInterruptedProduction |641336099|, failed to delete index from list: InterruptedProductionFile
-03:31:57 Command msg: Zeskanuj barkod produktu
-03:31:57 Response msg: Etykieta kartonu wczytana poprawnie. Pakowanie kartonu 3S641336099 rozpoczete.
-03:31:57 Command msg: Zeskanuj barkod produktu

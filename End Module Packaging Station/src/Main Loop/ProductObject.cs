@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     public class ProductObject
     {

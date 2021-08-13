@@ -8,7 +8,7 @@ using System.Threading;
 using System.IO.Ports;
 using CustomExtensions;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     partial class Declarations
     {

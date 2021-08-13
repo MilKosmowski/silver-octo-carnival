@@ -1,4 +1,4 @@
-﻿namespace Central_pack_Refactoring
+﻿namespace Central_pack
 {
     partial class Declarations
     {
@@ -405,9 +405,9 @@
             this.BoxPackingPicture.BackColor = System.Drawing.Color.Gainsboro;
             this.BoxPackingPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BoxPackingPicture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.BoxPackingPicture.ErrorImage = global::Central_pack_Refactoring.Properties.Resources.aptiv_logo;
-            this.BoxPackingPicture.Image = global::Central_pack_Refactoring.Properties.Resources.aptiv_logo;
-            this.BoxPackingPicture.InitialImage = global::Central_pack_Refactoring.Properties.Resources.aptiv_logo;
+            this.BoxPackingPicture.ErrorImage = global::Central_pack.Properties.Resources.aptiv_logo;
+            this.BoxPackingPicture.Image = global::Central_pack.Properties.Resources.aptiv_logo;
+            this.BoxPackingPicture.InitialImage = global::Central_pack.Properties.Resources.aptiv_logo;
             this.BoxPackingPicture.Location = new System.Drawing.Point(5, 78);
             this.BoxPackingPicture.Name = "BoxPackingPicture";
             this.BoxPackingPicture.Size = new System.Drawing.Size(632, 599);

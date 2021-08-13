@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using CustomExtensions;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     partial class Declarations : Form
     {

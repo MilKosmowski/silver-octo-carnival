@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using CustomExtensions;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     partial class Declarations
     {
