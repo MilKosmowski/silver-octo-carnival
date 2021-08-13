@@ -2,7 +2,7 @@
 using System.Drawing;
 using CustomExtensions;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     partial class  Declarations
     {

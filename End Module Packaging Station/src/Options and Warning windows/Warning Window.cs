@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     public partial class PopupWindow : Form
     {
