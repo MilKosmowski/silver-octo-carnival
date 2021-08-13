@@ -18,7 +18,7 @@ namespace SearchWindow.Tests
         {
             Directory.CreateDirectory("SourceDirectoryTest");
             Directory.CreateDirectory("DestinationDirectoryTest");
-            Directory.CreateDirectory("Test text files source");
+            //Directory.CreateDirectory("Test text files source");
 
             for (int i = 1; i <= 4; i++)
             {
@@ -47,7 +47,8 @@ namespace SearchWindow.Tests
             if (File.Exists("TransferLog.log"))
                 LogText = File.ReadAllLines("TransferLog.log");
 
-            Assert.IsTrue(File.Exists(@"DestinationDirectoryTest\4.txt") && LogText.Contains(@"SourceDirectoryTest\4.txt                          --> contains text: TestStringToFindInFile"));
+            Assert.IsTrue(File.Exists(@"DestinationDirectoryTest\4.txt"));
+            Assert.IsTrue(LogText.Contains(@"4.txt                                              --> contains text: TestStringToFindInFile"));
         }
 
         [TestMethod()]
@@ -62,7 +63,7 @@ namespace SearchWindow.Tests
                 LogText = File.ReadAllLines("TransferLog.log");
 
             Assert.IsTrue(File.Exists(@"DestinationDirectoryTest\4.txt"));
-            Assert.IsTrue(LogText.Contains(@"SourceDirectoryTest\4.txt                          --> contains text: TestStringToFindInFile"));
+            Assert.IsTrue(LogText.Contains(@"4.txt                                              --> contains text: TestStringToFindInFile"));
         }
 
         [TestMethod()]
@@ -78,7 +79,7 @@ namespace SearchWindow.Tests
                 LogText = File.ReadAllLines("TransferLog.log");
 
             Assert.IsTrue(File.Exists(@"DestinationDirectoryTest\4.txt"));
-            Assert.IsTrue(LogText.Contains(@"SourceDirectoryTest\4.txt                          --> contains text: TestStringToFindInFile"));
+            Assert.IsTrue(LogText.Contains(@"4.txt                                              --> contains text: TestStringToFindInFile"));
         }
 
         [TestCleanup()]
