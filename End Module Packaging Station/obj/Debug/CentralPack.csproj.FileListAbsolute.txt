@@ -135,6 +135,6 @@ C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\o
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\CentralPack.csproj.CopyComplete
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.exe
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.pdb
-C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack_Refactoring.OptionsMenu.resources
-C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack_Refactoring.Declarations.resources
-C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack_Refactoring.PopupWindow.resources
+C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.OptionsMenu.resources
+C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.Declarations.resources
+C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.PopupWindow.resources

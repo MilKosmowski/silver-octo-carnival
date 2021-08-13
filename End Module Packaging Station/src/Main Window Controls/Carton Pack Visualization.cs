@@ -16,7 +16,7 @@ using System.Media;
 using System.IO.Ports;
 
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     partial class Declarations : Form
     {

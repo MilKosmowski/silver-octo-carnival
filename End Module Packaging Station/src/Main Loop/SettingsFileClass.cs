@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using CustomExtensions;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     public class SettingsFile
     {

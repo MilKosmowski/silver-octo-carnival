@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Central_pack_Refactoring
+namespace Central_pack
 {
     static class Program
     {

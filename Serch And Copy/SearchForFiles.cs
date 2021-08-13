@@ -99,9 +99,9 @@ namespace SearchWindow
         protected override string[] MethodSearchExecution(SearchWindowModel Execution, BackgroundWorker backgroundWorker, string file)
         {
             return File.ReadLines(file)
-                            .Skip(Execution.lineToCheck - 1)
-                            .Where(lines => SearchLineForText(Execution, BWorker, file, lines))
-                            .ToArray();
+                       .Skip(Execution.lineToCheck - 1)
+                       .Where(lines => SearchLineForText(Execution, BWorker, file, lines))
+                       .ToArray();
         }
     }
 

@@ -69,6 +69,7 @@
             this.textBoxDestinationLocation.Name = "textBoxDestinationLocation";
             this.textBoxDestinationLocation.Size = new System.Drawing.Size(866, 26);
             this.textBoxDestinationLocation.TabIndex = 2;
+            this.textBoxDestinationLocation.Text = "DefaultFolder";
             // 
             // textBoxWhatToLookFor
             // 
