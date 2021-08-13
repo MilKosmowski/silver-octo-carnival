@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Rozwiązania c#\\Central Packaging Main Program\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Rozwiązania c#\\Central Packaging Main Program\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Rozwiązania c#\\Central Packaging Main Program\\Extracting data from ICT logs\\Extracting data from ICT logs.csproj",
+      "projectName": "Extracting data from ICT logs",
+      "projectPath": "C:\\Rozwiązania c#\\Central Packaging Main Program\\Extracting data from ICT logs\\Extracting data from ICT logs.csproj",
       "packagesPath": "C:\\Users\\hjtb7l\\.nuget\\packages\\",
-      "outputPath": "C:\\Rozwiązania c#\\Central Packaging Main Program\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Rozwiązania c#\\Central Packaging Main Program\\Extracting data from ICT logs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

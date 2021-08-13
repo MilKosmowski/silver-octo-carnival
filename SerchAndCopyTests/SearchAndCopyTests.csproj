@@ -69,9 +69,9 @@
       <Project>{1acf6e8d-20ed-4ebe-adc4-4b9672e4ca61}</Project>
       <Name>CustomExtensions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SerchAndCopy\SerchAndCopy.csproj">
+    <ProjectReference Include="..\SerchAndCopy\SearchAndCopy.csproj">
       <Project>{439A69A8-3594-4980-BD8F-298E1602B7DE}</Project>
-      <Name>SerchAndCopy</Name>
+      <Name>SearchAndCopy</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

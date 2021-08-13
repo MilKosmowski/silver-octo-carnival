@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralPack", "Central_pack\CentralPack.csproj", "{5775ACAD-62F1-4F8B-BC0A-54473C77D024}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wyciąganie danych z logów ICT", "Wyciąganie danych z logów ICT\Wyciąganie danych z logów ICT.csproj", "{3255C950-7D89-45DB-8CFC-40737F385FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extracting data from ICT logs", "Extracting data from ICT logs\Extracting data from ICT logs.csproj", "{3255C950-7D89-45DB-8CFC-40737F385FBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerchAndCopy", "SerchAndCopy\SerchAndCopy.csproj", "{439A69A8-3594-4980-BD8F-298E1602B7DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAndCopy", "SerchAndCopy\SearchAndCopy.csproj", "{439A69A8-3594-4980-BD8F-298E1602B7DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomExtensions", "CustomExtensions\CustomExtensions.csproj", "{1ACF6E8D-20ED-4EBE-ADC4-4B9672E4CA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerchAndCopyTests", "SerchAndCopyTests\SerchAndCopyTests.csproj", "{340E8EB6-624D-4CED-9A4B-A2B3710AC705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAndCopyTests", "SerchAndCopyTests\SearchAndCopyTests.csproj", "{340E8EB6-624D-4CED-9A4B-A2B3710AC705}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchAndCopy", "SearchAndCopy", "{7F1B3052-8C8D-4B84-AAB8-33D0B2E7D9CF}"
 EndProject
