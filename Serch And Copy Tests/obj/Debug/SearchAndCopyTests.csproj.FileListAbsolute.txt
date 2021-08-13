@@ -1,0 +1,23 @@
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Test text files source\1.txt
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Test text files source\2.txt
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Test text files source\3.txt
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Test text files source\4.txt
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\SerchAndCopyTests.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\SerchAndCopyTests.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\CustomExtensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\SearchAndCopy.exe
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\CustomExtensions.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\SearchAndCopy.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\SearchAndCopy.exe.config
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SearchAndCopyTests.csprojAssemblyReference.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SearchAndCopyTests.csproj.CoreCompileInputs.cache
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SearchAndCopyTests.csproj.CopyComplete
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SerchAndCopyTests.dll
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SerchAndCopyTests.pdb

@@ -18,6 +18,7 @@ namespace SearchWindow.Tests
         {
             Directory.CreateDirectory("SourceDirectoryTest");
             Directory.CreateDirectory("DestinationDirectoryTest");
+            Directory.CreateDirectory("Test text files source");
 
             for (int i = 1; i <= 4; i++)
             {
