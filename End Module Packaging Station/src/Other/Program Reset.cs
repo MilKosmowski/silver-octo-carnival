@@ -13,7 +13,7 @@ namespace Central_pack
             if (!MyExtensions.IsNullOrEmpty(APNFileData)) Array.Clear(APNFileData,0, APNFileData.Length);
             if (productsInCarton != null) productsInCarton.Clear();
             timer600ms.Enabled = true;
-            PackingPictureFilePath = Properties.Resources.aptiv_logo;
+            PackingPictureFilePath = null;
             PackingType = "-";
             CartonSerialNumberFormat = "-";
             APNInProductBarcode = "-";

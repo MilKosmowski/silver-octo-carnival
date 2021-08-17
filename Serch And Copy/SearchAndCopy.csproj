@@ -96,7 +96,6 @@
   <ItemGroup>
     <Content Include="Icon.ico" />
     <Content Include="Resources\Icon.ico" />
-    <Content Include="SearchAndCopyIcon - Copy.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

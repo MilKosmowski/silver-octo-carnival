@@ -138,3 +138,4 @@ C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\o
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.OptionsMenu.resources
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.Declarations.resources
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.PopupWindow.resources
+C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\bin\Debug\Oracle.ManagedDataAccess.dll
