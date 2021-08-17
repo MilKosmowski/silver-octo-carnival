@@ -24,7 +24,6 @@ namespace Central_pack
 
             catch (Exception e)
             {
-
                 string error = $"error {e.ToString()}";
                 stream.Close();
                 return error;
