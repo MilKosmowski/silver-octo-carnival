@@ -14,7 +14,7 @@ namespace SearchWindow
         void CopyFile(string whatToLookFor, string destination, string file);
     }
 
-    public abstract class GenericSearch : ISearch
+    public class GenericSearch : ISearch
     {
         public void LogProgress(string whatToLookFor, string file)
         {
@@ -43,6 +43,7 @@ namespace SearchWindow
         {
             this.Execution = execution;
             this.BWorker = backgroundWorker;
+
             this.ResultArray = SearchLineExecutionTemplate(MethodSearchExecution, execution, backgroundWorker);
         }
 

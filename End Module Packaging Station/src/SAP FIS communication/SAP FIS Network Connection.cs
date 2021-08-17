@@ -9,40 +9,6 @@ namespace Central_pack
 {
     partial class Declarations
     {
-
-        string SendToSAP(String server, String message, Int32 portNumber, bool closeSocket = false)
-        {
-            string error;
-            try
-            {
-                Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
-                TcpClient client = new TcpClient(server, portNumber);
-                NetworkStream streamSAP = client.GetStream();
-                streamSAP.ReadTimeout = 10000;
-                streamSAP.WriteTimeout = 10000;
-                streamSAP.Write(data, 0, data.Length);
-                if (closeSocket)
-                {
-                    streamSAP.Close();
-                    client.Close();
-                    return "Done. Closed socket";
-                }
-                String responseData = String.Empty;
-                data = new Byte[256];
-                Int32 bytes = streamSAP.Read(data, 0, data.Length);
-                responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
-                streamSAP.Close();
-                client.Close();
-                bytes = 0;
-                return responseData;
-            }
-            catch (Exception e)
-            {
-                error = "Problem z wysyłką , " + e.ToString();
-                return error;
-            }
-        }
-
         public void SapRequestSendFromQueue(string SAPQueueFilePath)
         {
             if (!File.Exists(SAPQueueFilePath)) return;
@@ -64,7 +30,7 @@ namespace Central_pack
                     File.WriteAllLines(SAPQueueFilePath, backFlashKolejkaDanePlikArray);
                     string response="Pusty";
                     MyExtensions.Log($"Proba wysylki z pliku: {msg} {settingsFile.PrimarySAPIp} {settingsFile.SapPort}", "SAP");
-                    response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
+                    //response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
                     if (response.Contains("OK"))
                     {
                         var lines = File.ReadAllLines(SAPQueueFilePath).Where(line => line.Trim() != msg).ToArray();
@@ -101,7 +67,7 @@ namespace Central_pack
             {
                 string response = "";
                 MyExtensions.Log($"{msg}", "SAP");
-                response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
+                //response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
                 MyExtensions.Log($"{response}", "SAP");
                 if (response.Contains("OK"))
                 {
@@ -147,6 +113,5 @@ namespace Central_pack
 
             }
         }
-
     }   
 }
