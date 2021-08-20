@@ -14,10 +14,10 @@ What is it?
 
 How do you use it?
 
-- You put a carton with a packaging label next to an automatic barcode scanner (SICK scanner).
+- You put a carton with a packaging label next to an automatic barcode scanner (SICK scanner, CLV650-6120 for instance).
 - SICK scans the 1P (product part number), Q (quantity) and 3S (unique serial number).
-- If everything's fine with the carton, and the program gives you the go-ahead, you scan the DataMatrix or QR code located on a product,
-- If the program accepts the QR code, it informs You about it, You physically put the product into the carton and continue scanning and packaging other prudicts,
+- If everything's fine with the carton, and the program gives you the go-ahead, you scan the DataMatrix or QR code located on a product with a handheld scanner (Zebra DS4308 for instance),
+- If the program accepts the QR code, it informs you about it, you physically put the product into the carton and continue scanning and packaging other products,
 - When the carton is full, and no problems with the product were found, the program closes-up the carton in the database, informs you about it,
 and you repeat the steps with another carton and packaging label,
 
