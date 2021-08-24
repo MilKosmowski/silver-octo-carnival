@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Central_pack
@@ -27,10 +22,12 @@ namespace Central_pack
             this.BackColor = color;
             buttonClose.Visible = CloseVisible;
         }
+
         private void buttonClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
         private void KeyExit(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -44,30 +41,39 @@ namespace Central_pack
                 case 0:
                     labelTime.Text = "3.";
                     break;
+
                 case 1:
                     labelTime.Text = "3..";
                     break;
+
                 case 2:
                     labelTime.Text = "3...";
                     break;
+
                 case 3:
                     labelTime.Text = "2.";
                     break;
+
                 case 4:
                     labelTime.Text = "2..";
                     break;
+
                 case 5:
                     labelTime.Text = "2...";
                     break;
+
                 case 6:
                     labelTime.Text = "1.";
                     break;
+
                 case 7:
                     labelTime.Text = "1..";
                     break;
+
                 case 8:
                     labelTime.Text = "1...";
                     break;
+
                 case 9:
                     this.Close();
                     break;
@@ -76,4 +82,3 @@ namespace Central_pack
         }
     }
 }
-

@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using System.IO;
+
 using CustomExtensions;
 
 namespace Central_pack
@@ -25,9 +26,9 @@ namespace Central_pack
             {
                 result = APNFileData.FirstOrDefault(l => l.StartsWith("CodeTypeSN"));
             }
-            catch(Exception)
+            catch (Exception)
             {
-                MyExtensions.Log($"Nieprawidłowy format pliku typu {APNFileData}, nie znaleziono linii z danymi -CodeTypeSN-","Regular");
+                MyExtensions.Log($"Nieprawidłowy format pliku typu {APNFileData}, nie znaleziono linii z danymi -CodeTypeSN-", "Regular");
                 return false;
             }
 
@@ -63,7 +64,6 @@ namespace Central_pack
                 }
 
                 break;
-                
             }
 
             if (cartonWidthVisualization == 0 && cartonHeightVisualization == 0)
@@ -71,15 +71,14 @@ namespace Central_pack
                 try
                 {
                     string wymiaryTemp = APNFileData.FirstOrDefault(l => l.StartsWith("Layout="));
-                    wymiaryTemp = result.Replace("Layout=", "");                                
-                    string[] wymiaryTempTablica = wymiaryTemp.Split('x');                       
-                                                                                                
-                    if (!Int32.TryParse(wymiaryTempTablica[0], out cartonWidthVisualization))   
-                        cartonWidthVisualization = 0;                                           
-                                                                                                
-                    if (!Int32.TryParse(wymiaryTempTablica[1], out cartonHeightVisualization))                                                                      
-                        cartonHeightVisualization = 0;                                          
+                    wymiaryTemp = result.Replace("Layout=", "");
+                    string[] wymiaryTempTablica = wymiaryTemp.Split('x');
 
+                    if (!Int32.TryParse(wymiaryTempTablica[0], out cartonWidthVisualization))
+                        cartonWidthVisualization = 0;
+
+                    if (!Int32.TryParse(wymiaryTempTablica[1], out cartonHeightVisualization))
+                        cartonHeightVisualization = 0;
                 }
                 catch (Exception)
                 {
@@ -87,7 +86,6 @@ namespace Central_pack
                     cartonHeightVisualization = 0;
                 }
             }
-
 
             if (CartonSerialNumberFormat == "")
             {
@@ -106,12 +104,10 @@ namespace Central_pack
             }
             else
                 return true;
-
         }
 
         private string[] LoadAPNFIle(string PN)
         {
-
             try
             {
                 return File.ReadAllLines(APNFileFolderPath + PN + ".txt");
@@ -126,7 +122,6 @@ namespace Central_pack
                 MsgBoxShow($"Niespodziewany problem z wczytaniem pliku typu: {e}", Color.Yellow);
                 return null;
             }
-
         }
     }
 }

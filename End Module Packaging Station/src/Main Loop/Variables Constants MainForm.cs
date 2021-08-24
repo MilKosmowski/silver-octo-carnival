@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
-using System.Windows.Forms;
 using System.IO;
 using System.Net.Sockets;
+using System.Windows.Forms;
+
 using CustomExtensions;
-using System;
 
 namespace Central_pack
 {
@@ -15,6 +16,7 @@ namespace Central_pack
             InitializeComponent();
             LoadSettings();
         }
+
         private void LoadSettings()
         {
             Directory.CreateDirectory("log");
@@ -47,11 +49,13 @@ namespace Central_pack
             if (22 <= currentHour && currentHour < 6)
                 CurrentShift = 3;
         }
+
         private void CheckForFISConnection()
         {
             if (!MyExtensions.Ping(settingsFile.FisIp).Contains(settingsFile.FisIp))
                 MyExtensions.Log($"Problem z połączeniem z serwerem FIS {settingsFile.FisIp} {settingsFile.FisPort}. Nie można włączyć programu bez połączenia z FIS", "Regular");
         }
+
         private void SetupInterruptedProductionBlinker()
         {
             toolTipInterruptedProduction.SetToolTip(this.labelInterruptedProductionBool, settingsFile.ActualInterruptedProductionFileLocation);
@@ -66,18 +70,19 @@ namespace Central_pack
             else
                 labelInterruptedProductionBool.BackColor = Color.LightCoral;
         }
+
         private void COMScannerOn()
         {
             string statusSerialPortLabelScanner = OpenCOMPort(serialPortScannerCarton);
             if (statusSerialPortLabelScanner.Contains("port otwarto"))
             {
-
                 serialPortScannerCarton.WriteLine("<T>\r");
                 MyExtensions.Log("<T>", "Regular");
                 timer600ms.Enabled = true;
             }
             string statusSerialPortProductScanner = OpenCOMPort(serialPortScannerProduct);
         }
+
         private void CheckForSAPConnection(string PrimarySAPIp)
         {
             bool flagaSAP = false;
@@ -108,8 +113,8 @@ namespace Central_pack
         public static List<string> productsInCarton = new List<string>();
         public static SettingsFile settingsFile = new SettingsFile(settingsFilePath);
         public List<Label> panelCartonContentVisualization = new List<Label>();
-        List<string> queueSAPFile = new List<string>();
-        List<Control> controlCartonContentVisualization = new List<Control>();
+        private List<string> queueSAPFile = new List<string>();
+        private List<Control> controlCartonContentVisualization = new List<Control>();
         public static TcpClient fisClient;
         public static NetworkStream streamFIS;
 
@@ -123,6 +128,5 @@ namespace Central_pack
             if (time == "22:00:00")
                 currentShift = 3;
         }
-
     }
 }

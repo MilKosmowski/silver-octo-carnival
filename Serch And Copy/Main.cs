@@ -1,7 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
+
 using CustomExtensions;
+
 using SearchAndCopy;
 
 namespace SearchWindow
@@ -24,8 +26,8 @@ namespace SearchWindow
 
         private void BackgroundWorkerSearchForFile_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            SearchWindowModel Execution = new SearchWindowModel(_WhatToLookFor, _SourceLocation, _DestinationLocation, _LineNumberToCheck);
-            ProgramExecute.Run(Execution, backgroundWorkerSearchForFile);
+            SearchWindowModel Execution = new SearchWindowModel(_WhatToLookFor, _SourceLocation, _DestinationLocation, checkBoxsearchForMultipleOccurences.Checked, _LineNumberToCheck);
+            Execute.Run(Execution, backgroundWorkerSearchForFile);
         }
 
         private void BackgroundWorkerSearchForFile_ProgressChanged(object sender, System.ComponentModel.ProgressChangedEventArgs e)
@@ -36,13 +38,8 @@ namespace SearchWindow
 
         private string _WhatToLookFor { get { return MyExtensions.IsNotEmptyExc(textBoxWhatToLookFor.Text); } }
         private string _SourceLocation { get { return MyExtensions.IsLocationExc(textBoxSourceLocation.Text); } }
-        private string _DestinationLocation { get { return MyExtensions.IsLocationExc(textBoxDestinationLocation.Text); } }
+        private string _DestinationLocation { get { if (textBoxDestinationLocation.Text == $@"{Environment.CurrentDirectory}\DefaultFolder") { MyExtensions.CreateFolderIfDoesntExist(textBoxDestinationLocation.Text); } return MyExtensions.IsLocationExc(textBoxDestinationLocation.Text); } }
         private int _LineNumberToCheck { get { return MyExtensions.IsNumberExc(textBoxLineNumberToCheck.Text); } }
         private string ProgressSneakPeek { set { textBoxSearchProgress.Text = value; } }
-
-        private void textBoxSearchProgress_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

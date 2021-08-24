@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.IO;
+using System.Linq;
 using System.Threading;
+
 using CustomExtensions;
 
 namespace Central_pack
@@ -20,30 +21,30 @@ namespace Central_pack
 
         public static bool LoadInterruptedProductionFile()
         {
-                try
-                {
-                    InterruptedProductionFile = new List<string>(File.ReadAllLines(settingsFile.ActualInterruptedProductionFileLocation));
-                }
-                catch (FileNotFoundException)
-                {
-                    //SaveWholeInterruptedProductionFile();
-                    MyExtensions.Log($"Plik przerywanej produkcji nie istnieje. Kontynuuję pracę.", "Regular");
-                    return false;
-                }
-                catch (Exception)
-                {
-                    MyExtensions.Log($"Problem z dostepem do pliku przerywanej produkcji.", "Regular");
-                    return false;
-                }
-                MyExtensions.Log($"LoadPrzerywana OK {settingsFile.ActualInterruptedProductionFileLocation}", "Regular");
-                return true;
+            try
+            {
+                InterruptedProductionFile = new List<string>(File.ReadAllLines(settingsFile.ActualInterruptedProductionFileLocation));
+            }
+            catch (FileNotFoundException)
+            {
+                //SaveWholeInterruptedProductionFile();
+                MyExtensions.Log($"Plik przerywanej produkcji nie istnieje. Kontynuuję pracę.", "Regular");
+                return false;
+            }
+            catch (Exception)
+            {
+                MyExtensions.Log($"Problem z dostepem do pliku przerywanej produkcji.", "Regular");
+                return false;
+            }
+            MyExtensions.Log($"LoadPrzerywana OK {settingsFile.ActualInterruptedProductionFileLocation}", "Regular");
+            return true;
         }
 
         public static string SaveOneRecordToInterruptedProductionFile(string PN, string SN, string packingType, int cartonCapacity, int productsInCarton)
         {
             if (!LoadInterruptedProductionFile())
                 return "LOAD ERROR";
-            
+
             if (settingsFile.LegacyInterruptedProductionMethodOn == "1")
             {
                 return LegacySaveOneRecordToInterruptedProductionFile(PN, SN, packingType, cartonCapacity, productsInCarton);
@@ -54,7 +55,7 @@ namespace Central_pack
             }
         }
 
-        static string RegularSaveOneRecordToInterruptedProductionFile(string PN, string SN)
+        private static string RegularSaveOneRecordToInterruptedProductionFile(string PN, string SN)
         {
             foreach (string line in InterruptedProductionFile)
             {
@@ -83,7 +84,7 @@ namespace Central_pack
             return "SAVE ERROR";
         }
 
-        static string LegacySaveOneRecordToInterruptedProductionFile(string PN, string SN, string packingType, int cartonCapacity, int productsInCarton)
+        private static string LegacySaveOneRecordToInterruptedProductionFile(string PN, string SN, string packingType, int cartonCapacity, int productsInCarton)
         {
             foreach (string line in InterruptedProductionFile)
             {
@@ -107,10 +108,9 @@ namespace Central_pack
                         sw.WriteLine($"CartonFillQty={cartonCapacity}");
                         sw.WriteLine($"CartonCurrentQty={productsInCarton}");
                         sw.WriteLine($"LOT={SN}");
-                        sw.WriteLine($"DPN={PN.Substring(0,8)}");
+                        sw.WriteLine($"DPN={PN.Substring(0, 8)}");
                         sw.WriteLine(packingType == "-" ? $"CartonType=01" : $"CartonType={packingType}");
                         sw.WriteLine($"CartonSN={SN}");
-
                     }
                     MyExtensions.Log($"LegacySavePrzerywana {PN} {SN} OK", "Regular");
                     return "OK";
@@ -120,7 +120,6 @@ namespace Central_pack
                     Thread.Sleep(5);
                 }
             }
-
 
             return "SAVE ERROR";
         }
@@ -137,10 +136,9 @@ namespace Central_pack
             {
                 return RegularRemoveFromInterruptedProduction(SN);
             }
-
         }
 
-        static bool RegularRemoveFromInterruptedProduction(string SN)
+        private static bool RegularRemoveFromInterruptedProduction(string SN)
         {
             if (InterruptedProductionFile.RemoveAll(u => u.Contains(SN)) > 0) //usun z listy wszystko co zawiera SN i sprawdz czy zostala usunieta wieksza niz 0 ilosc elementow
             {
@@ -158,9 +156,9 @@ namespace Central_pack
             return false;
         }
 
-        static bool LegacyRemoveFromInterruptedProduction(string SN)
+        private static bool LegacyRemoveFromInterruptedProduction(string SN)
         {
-            int indexToDelete = InterruptedProductionFile.IndexOf($"[{SN.Replace("3S","")}]");
+            int indexToDelete = InterruptedProductionFile.IndexOf($"[{SN.Replace("3S", "")}]");
 
             try
             {
@@ -188,7 +186,7 @@ namespace Central_pack
             return returnValue;
         }
 
-        static string RegularSearchInterruptedProduction(string pn)
+        private static string RegularSearchInterruptedProduction(string pn)
         {
             string result = InterruptedProductionFile.FirstOrDefault(l => l.StartsWith(pn));
             if (string.IsNullOrEmpty(result))
@@ -220,17 +218,16 @@ namespace Central_pack
             //}
         }
 
-        static string LegacySearchInterruptedProduction(string pn)
+        private static string LegacySearchInterruptedProduction(string pn)
         {
             string cartonLabelString = $"CartonLabel={pn}";
             string result = InterruptedProductionFile.FirstOrDefault(l => l.StartsWith(cartonLabelString));
             if (string.IsNullOrEmpty(result))
                 return "OK";
 
-            string id = InterruptedProductionFile[InterruptedProductionFile.IndexOf(cartonLabelString)-1].Replace("ProdOrder=","");
+            string id = InterruptedProductionFile[InterruptedProductionFile.IndexOf(cartonLabelString) - 1].Replace("ProdOrder=", "");
             MyExtensions.Log($"Id z przerywanej:  {id}", "Regular");
             return id;
-
 
             //if (RemoveFromInterruptedProduction(id))
             //{
@@ -256,7 +253,7 @@ namespace Central_pack
                         RemoveFromInterruptedProduction(InterruptedProductionFile[i]);
                     }
 
-                    if ((InterruptedProductionFile[i].Length!=18)&&!MyExtensions.MadeOfAtLeastOneNumberAndSpaces(InterruptedProductionFile[i]))
+                    if ((InterruptedProductionFile[i].Length != 18) && !MyExtensions.MadeOfAtLeastOneNumberAndSpaces(InterruptedProductionFile[i]))
                     {
                         RemoveFromInterruptedProduction(InterruptedProductionFile[i]);
                     }
@@ -275,6 +272,5 @@ namespace Central_pack
             }
             return false;
         }
-
     }
 }

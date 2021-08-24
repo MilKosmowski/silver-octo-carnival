@@ -10,7 +10,15 @@ namespace CustomExtensions
 {
     public static class MyExtensions
     {
-        public static string[] ToArray (this string strValue)
+        public static void CreateFolderIfDoesntExist(string folderPath)
+        {
+            if (!Directory.Exists(folderPath))
+            {
+                Directory.CreateDirectory(folderPath);
+            }
+        }
+
+        public static string[] ToArray(this string strValue)
         {
             string[] lArray = new string[] { strValue };
 
@@ -114,9 +122,11 @@ namespace CustomExtensions
                         case IPStatus.Success:
                             returnMessage = string.Format("{0} B={1} T={2}ms TTL={3}", pingReply.Address, pingReply.Buffer.Length, pingReply.RoundtripTime, pingReply.Options.Ttl);
                             break;
+
                         case IPStatus.TimedOut:
                             returnMessage = "Connection has timed out...";
                             break;
+
                         default:
                             returnMessage = string.Format("Ping failed: {0}", pingReply.Status.ToString());
                             break;
@@ -229,7 +239,6 @@ namespace CustomExtensions
             {
                 MyExtensions.Log($"error {e} nieudane połączenie z {client}", "Regular");
             }
-
         }
 
         public static void CloseConnection(ref NetworkStream stream, TcpClient client)
@@ -237,7 +246,6 @@ namespace CustomExtensions
             try { stream.Close(); client.Close(); }
             catch (NullReferenceException e) { MyExtensions.Log($"Próba zamknięcia połączenia {client} nie powiodła się:  {e}", "Regular"); }
             catch (Exception e) { MyExtensions.Log($"Próba zamknięcia połączenia {client} nie powiodła się:  {e}", "Regular"); }
-
         }
 
         public static bool MadeOfAtLeastOneNumberAndSpaces(string str)

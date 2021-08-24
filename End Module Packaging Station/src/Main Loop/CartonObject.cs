@@ -1,9 +1,6 @@
-﻿using CustomExtensions;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
+
+using CustomExtensions;
 
 namespace Central_pack
 {
@@ -12,7 +9,8 @@ namespace Central_pack
         private static CartonObject instance = null;
         private static readonly object padlock = new object();
 
-        CartonObject() { }
+        private CartonObject()
+        { }
 
         public static CartonObject Instance
         {
@@ -41,6 +39,7 @@ namespace Central_pack
 
             set { }
         }
+
         public string QuantityQ
         {
             get
@@ -53,6 +52,7 @@ namespace Central_pack
 
             set { }
         }
+
         public string SerialNumber3S
         {
             get
@@ -65,6 +65,7 @@ namespace Central_pack
 
             set { }
         }
+
         public string StatusFIS
         {
             get
@@ -77,7 +78,9 @@ namespace Central_pack
 
             set { }
         }
+
         public List<ProductObject> PackedProducts { get; set; }
+
         public int PackedAmount
         {
             get
@@ -88,6 +91,5 @@ namespace Central_pack
                     return PackedProducts.Count;
             }
         }
-
     }
 }

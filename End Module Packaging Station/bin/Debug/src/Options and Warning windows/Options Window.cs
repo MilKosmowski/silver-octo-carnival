@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Windows.Forms;
-using System.IO;
-using System.Net.Sockets;
 using System.Collections.Generic;
+using System.IO;
+using System.Windows.Forms;
+
 using CustomExtensions;
 
 namespace Central_pack
 {
     public partial class OptionsMenu : Form
     {
-        List<string> Ports = new List<string>();
-        SettingsFile settingsFile = new SettingsFile(Declarations.settingsFilePath);
+        private List<string> Ports = new List<string>();
+        private SettingsFile settingsFile = new SettingsFile(Declarations.settingsFilePath);
         private static string[] settings;
 
         public OptionsMenu()
@@ -54,8 +54,6 @@ namespace Central_pack
 
             for (int i = 0; i < System.IO.Ports.SerialPort.GetPortNames().Length; i++)
                 Ports.Add(System.IO.Ports.SerialPort.GetPortNames()[i]);
-
-
         }
 
         private void SaveSettings()
@@ -83,65 +81,80 @@ namespace Central_pack
             listBoxPingFIS.Items.Clear();
             listBoxPingFIS.Items.Add(MyExtensions.Ping(textBoxIPFIS.Text));
         }
+
         private void RadioSAPKomunikacjaTak_CheckedChanged(object sender, EventArgs e)
         {
             settings[9] = "1";
         }
+
         private void RadioSAPKomunikacjaNie_CheckedChanged(object sender, EventArgs e)
         {
             settings[9] = "0";
         }
+
         private void radioCzyPrzerywanaTak_CheckedChanged(object sender, EventArgs e)
         {
             settings[17] = "1";
         }
+
         private void radioCzyPrzerywanaNie_CheckedChanged(object sender, EventArgs e)
         {
             settings[17] = "0";
         }
+
         private void TextBoxIPFIS_TextChanged(object sender, EventArgs e)
         {
             settings[1] = textBoxIPFIS.Text;
         }
+
         private void TextBoxPortFIS_TextChanged(object sender, EventArgs e)
         {
             settings[3] = textBoxPortFIS.Text;
         }
+
         private void TextBoxNazwaStacji_TextChanged(object sender, EventArgs e)
         {
             settings[5] = textBoxStationName.Text;
         }
+
         private void TextBoxIPSAP_TextChanged(object sender, EventArgs e)
         {
             settings[10] = textBoxIPSAP.Text;
             string[] sapIpLista = settings[10].Split(' ');
         }
+
         private void TextBoxPortSAP_TextChanged(object sender, EventArgs e)
         {
             settings[11] = textBoxPortSAP.Text;
         }
+
         private void TextBoxCOMSkKartonu_TextChanged(object sender, EventArgs e)
         {
             settings[13] = textBoxCOMCartonLabelScanner.Text;
         }
+
         private void TextBoxCOMSkDetalu_TextChanged(object sender, EventArgs e)
         {
             settings[15] = textBoxCOMProductLabelScanner.Text;
         }
+
         private void ButtonOpcjeZapisz_Click(object sender, EventArgs e)
         {
             SaveSettings();
             LoadSettings();
         }
+
         private void ButtonOpcjeZapiszIWyjdz_Click(object sender, EventArgs e)
         {
             SaveSettings();
             Application.Restart();
         }
+
         private void radioLegacyInterruptedProductionMethodTrue_CheckedChanged(object sender, EventArgs e)
         {
             settings[21] = "1";
         }
+
         private void radioLegacyInterruptedProductionMethodFalse_CheckedChanged(object sender, EventArgs e)
         {
             settings[21] = "0";

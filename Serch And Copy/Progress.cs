@@ -1,6 +1,6 @@
 ﻿namespace SearchWindow
 {
-    class Progress
+    internal class Progress
     {
         public Progress(int _PercentageProgress, string _TextProgress)
         {
@@ -10,6 +10,5 @@
 
         public string TextProgress { get; set; }
         public int PercentageProgress { get; set; }
-
     }
 }

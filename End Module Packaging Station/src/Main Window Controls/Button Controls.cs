@@ -1,14 +1,14 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows.Forms;
+
 using CustomExtensions;
 
 namespace Central_pack
 {
     partial class Declarations : Form
     {
-
-        void ButtonOptions_Click(object sender, EventArgs e)
+        private void ButtonOptions_Click(object sender, EventArgs e)
         {
             Form fo = Application.OpenForms["Menu Opcji"];
             if (fo == null)
@@ -18,13 +18,13 @@ namespace Central_pack
             }
         }
 
-        void ButtonClose_Click(object sender, EventArgs e)
+        private void ButtonClose_Click(object sender, EventArgs e)
         {
             TurnOffCOMPorts();
             Close();
         }
 
-        void TurnOffCOMPorts()
+        private void TurnOffCOMPorts()
         {
             if (serialPortScannerCarton.IsOpen)
                 serialPortScannerCarton.Close();
@@ -33,7 +33,7 @@ namespace Central_pack
                 serialPortScannerProduct.Close();
         }
 
-        void ButtonInterruptedProduction_Click(object sender, EventArgs e)
+        private void ButtonInterruptedProduction_Click(object sender, EventArgs e)
         {
             if (PackingProcessStep != "Skanowanie kodu 1P")
             {
@@ -43,7 +43,7 @@ namespace Central_pack
             }
         }
 
-        void FormCentralPack_FormClosing(object sender, CancelEventArgs e)
+        private void FormCentralPack_FormClosing(object sender, CancelEventArgs e)
         {
             MyExtensions.Log("Zamykanie programu", "Regular");
             var result = MessageBox.Show("Czy na pewno chcesz zamknąć program?", "Zamykanie", MessageBoxButtons.YesNo);
@@ -55,7 +55,7 @@ namespace Central_pack
             }
         }
 
-        void IfPropoerScanProcessAndCartonNotZeroThenSaveToInterruptedProduction()
+        private void IfPropoerScanProcessAndCartonNotZeroThenSaveToInterruptedProduction()
         {
             if (PackingProcessStep == "Skan Produktu" && AmountOfProductsInCarton > 0)
                 InterruptedProduction.SaveOneRecordToInterruptedProductionFile(CartonLabelAPN, CartonLabelSerialNumber, PackingType, CartonCapacityQInteger, AmountOfProductsInCarton);

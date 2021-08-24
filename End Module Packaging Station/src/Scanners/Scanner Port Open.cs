@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using System.Threading;
 using System.IO.Ports;
+using System.Linq;
+
 using CustomExtensions;
 
 namespace Central_pack
 {
     partial class Declarations
     {
-
         private static bool IsPortAvailable(SerialPort PortToBeCheckedForAvailability)
         {
             var portExists = false;
@@ -26,9 +21,9 @@ namespace Central_pack
             }
             return portExists;
         }
+
         public static string OpenCOMPort(SerialPort PortToBeOpened)
         {
-
             if (!IsPortAvailable(PortToBeOpened))
             {
                 return $"port {PortToBeOpened.PortName} nie istnieje, nie otwarto portu";
@@ -37,16 +32,14 @@ namespace Central_pack
             if (PortToBeOpened.IsOpen) return "port otwarto";
 
             try
-                {
-                    PortToBeOpened.Open();
-                    return "port otwarto";
-                }
-                catch (Exception)
-                {
-                    return $"problem z otwarciem portu {PortToBeOpened.PortName}. Port istnieje ale nie można go otworzyć.";
-                }
-
+            {
+                PortToBeOpened.Open();
+                return "port otwarto";
+            }
+            catch (Exception)
+            {
+                return $"problem z otwarciem portu {PortToBeOpened.PortName}. Port istnieje ale nie można go otworzyć.";
+            }
         }
-
     }
 }

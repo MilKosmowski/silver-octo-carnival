@@ -1,12 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SearchWindow;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace SearchWindow.Tests
 {
@@ -30,7 +26,7 @@ namespace SearchWindow.Tests
         {
             string srcName = @"SourceDirectorySearchWindowModelInstanceTest";
 
-            SearchWindowModel Model = new SearchWindowModel("TestStringToFind TestStringToFind2 TestStringToFind3", srcName, "DestinationDirectoryTest",3);
+            SearchWindowModel Model = new SearchWindowModel("TestStringToFind TestStringToFind2 TestStringToFind3", srcName, "DestinationDirectoryTest", 3);
 
             List<string> fileListTest = new List<string>() { $@"{srcName}\1.txt", $@"{srcName}\2.txt", $@"{srcName}\3.txt", $@"{srcName}\4.txt" };
             List<string> listOfWhatToLookForTest = new List<string>() { "TestStringToFind", "TestStringToFind2", "TestStringToFind3" };
@@ -42,6 +38,7 @@ namespace SearchWindow.Tests
             fileListTest = null;
             listOfWhatToLookForTest = null;
         }
+
         [TestCleanup()]
         public void Cleanup()
         {

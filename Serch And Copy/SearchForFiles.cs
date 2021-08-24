@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
+
 using CustomExtensions;
 
 namespace SearchWindow
 {
-    interface ISearch
+    internal interface ISearch
     {
         void LogProgress(string searchItem, string whereWasItFound);
+
         void ReportStatus(double currentItemIndex, double itemsLeft, string itemName, BackgroundWorker backgroundWorker);
+
         void CopyFile(string whatToLookFor, string destination, string file);
     }
 
@@ -59,7 +62,7 @@ namespace SearchWindow
                 }
                 if (line.Contains(text))
                 {
-                    Execution.arrayOfWhatToLookFor[index] = "";
+                    if (!Execution.searchForMultipleOccurences) Execution.arrayOfWhatToLookFor[index] = "";
                     CopyFile(text, Execution.destinationLocation, file);
                     return true;
                 }
@@ -68,7 +71,7 @@ namespace SearchWindow
             return false;
         }
 
-        protected string[] SearchLineExecutionTemplate (Func<SearchWindowModel, BackgroundWorker, string, string[]> SearchMethod, SearchWindowModel execution, BackgroundWorker backgroundWorker)
+        protected string[] SearchLineExecutionTemplate(Func<SearchWindowModel, BackgroundWorker, string, string[]> SearchMethod, SearchWindowModel execution, BackgroundWorker backgroundWorker)
         {
             List<string> _resultArray = new List<string>();
 
@@ -80,7 +83,7 @@ namespace SearchWindow
 
                 if (Execution.fileList.IndexOf(file) % 10 == 0) ReportStatus(Execution.fileList.IndexOf(file), Execution.amountInFileList, file, BWorker);
 
-                if (MyExtensions.IsNullOrEmpty(Execution.arrayOfWhatToLookFor)) break;
+                if (execution.searchForMultipleOccurences==false && MyExtensions.IsNullOrEmpty(Execution.arrayOfWhatToLookFor)) break;
             }
 
             return _resultArray.ToArray();
@@ -93,9 +96,11 @@ namespace SearchWindow
         public string[] ResultArray;
     }
 
-    public class SearchForTextInSpecificLine : SearchForText
+    public class SearchForSpecificLine : SearchForText
     {
-        public SearchForTextInSpecificLine(SearchWindowModel execution, BackgroundWorker backgroundWorker) : base(execution, backgroundWorker) { }
+        public SearchForSpecificLine(SearchWindowModel execution, BackgroundWorker backgroundWorker) : base(execution, backgroundWorker)
+        {
+        }
 
         protected override string[] MethodSearchExecution(SearchWindowModel Execution, BackgroundWorker backgroundWorker, string file)
         {
@@ -106,9 +111,11 @@ namespace SearchWindow
         }
     }
 
-    public class SearchForTextLinqMethod : SearchForText
+    public class SearchLinqMethod : SearchForText
     {
-        public SearchForTextLinqMethod(SearchWindowModel execution, BackgroundWorker backgroundWorker) : base(execution, backgroundWorker) { }
+        public SearchLinqMethod(SearchWindowModel execution, BackgroundWorker backgroundWorker) : base(execution, backgroundWorker)
+        {
+        }
 
         protected override string[] MethodSearchExecution(SearchWindowModel Execution, BackgroundWorker backgroundWorker, string file)
         {
@@ -118,10 +125,14 @@ namespace SearchWindow
         }
     }
 
-    public class SearchForTextStreamReaderMethod : SearchForText
+    public class SearchStreamReaderMethod : SearchForText
     {
-        public SearchForTextStreamReaderMethod(SearchWindowModel execution, BackgroundWorker backgroundWorker) : base(execution, backgroundWorker) { }
-        List<string> result = new List<string>();
+        public SearchStreamReaderMethod(SearchWindowModel execution, BackgroundWorker backgroundWorker) : base(execution, backgroundWorker)
+        {
+        }
+
+        private List<string> result = new List<string>();
+
         protected override string[] MethodSearchExecution(SearchWindowModel Execution, BackgroundWorker backgroundWorker, string file)
         {
             using (StreamReader sr = new StreamReader(file))
@@ -130,7 +141,7 @@ namespace SearchWindow
                 {
                     string line = sr.ReadLine();
                     if (SearchLineForText(Execution, BWorker, file, line))
-                    result.Add(line);
+                        result.Add(line);
                 }
             }
             return result.ToArray();

@@ -1,20 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using System.Drawing;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using System.Reflection;
-using System.IO;
-using System.Timers;
-using System.Threading;
-using System.Net.Sockets;
-using System.Media;
-using System.IO.Ports;
-
 
 namespace Central_pack
 {
@@ -28,7 +13,7 @@ namespace Central_pack
             panelCartonContentVisualization.Clear();
             BoxCartonFillVisualization.Visible = false;
             int offsetX = 0;
-            int offsetY = 0;    
+            int offsetY = 0;
             int space = 0;
             Point startPoint = BoxCartonFillVisualization.Location;
             Point endPoint = new Point(BoxCartonFillVisualization.Location.X + BoxCartonFillVisualization.Size.Width, BoxCartonFillVisualization.Location.Y + BoxCartonFillVisualization.Size.Height);
@@ -48,7 +33,7 @@ namespace Central_pack
                     newPanel.BackColor = Color.Gray;
                     newPanel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                     newPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-                    newPanel.Margin = new Padding( 5, 5, 5, 5);
+                    newPanel.Margin = new Padding(5, 5, 5, 5);
                     newPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
                     newPanel.Location = new Point(startPoint.X + offsetX + startDrawX, startPoint.Y + startDrawY + offsetY);
                     if (i == column - 1)

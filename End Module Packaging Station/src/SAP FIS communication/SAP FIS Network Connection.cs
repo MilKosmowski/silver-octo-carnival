@@ -1,14 +1,42 @@
-﻿using CustomExtensions;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 
+using CustomExtensions;
+
 namespace Central_pack
 {
     partial class Declarations
     {
+        private string SendToSAP(String server, String message, int portNumber)
+        {
+            string error;
+            try
+            {
+                Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
+                TcpClient client = new TcpClient(server, portNumber);
+                NetworkStream streamSAP = client.GetStream();
+                streamSAP.ReadTimeout = 10000;
+                streamSAP.WriteTimeout = 10000;
+                streamSAP.Write(data, 0, data.Length);
+                String responseData = String.Empty;
+                data = new byte[256];
+                int bytes = streamSAP.Read(data, 0, data.Length);
+                responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+                streamSAP.Close();
+                client.Close();
+                bytes = 0;
+                return responseData;
+            }
+            catch (Exception e)
+            {
+                error = "Problem z wysyłką , " + e.ToString();
+                return error;
+            }
+        }
+
         public void SapRequestSendFromQueue(string SAPQueueFilePath)
         {
             if (!File.Exists(SAPQueueFilePath)) return;
@@ -28,9 +56,9 @@ namespace Central_pack
                 {
                     string[] backFlashKolejkaDanePlikArray = QueueSAPFile.ToArray();
                     File.WriteAllLines(SAPQueueFilePath, backFlashKolejkaDanePlikArray);
-                    string response="Pusty";
+                    string response = "Pusty";
                     MyExtensions.Log($"Proba wysylki z pliku: {msg} {settingsFile.PrimarySAPIp} {settingsFile.SapPort}", "SAP");
-                    //response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
+                    response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
                     if (response.Contains("OK"))
                     {
                         var lines = File.ReadAllLines(SAPQueueFilePath).Where(line => line.Trim() != msg).ToArray();
@@ -47,7 +75,7 @@ namespace Central_pack
             }
         }
 
-        void SaveToSAPQueue(string plikKolejka, string msg)
+        private void SaveToSAPQueue(string plikKolejka, string msg)
         {
             SapChangeState(0);
             using (StreamWriter sw = File.AppendText(plikKolejka))
@@ -67,7 +95,7 @@ namespace Central_pack
             {
                 string response = "";
                 MyExtensions.Log($"{msg}", "SAP");
-                //response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
+                response = SendToSAP(settingsFile.PrimarySAPIp, msg, int.Parse(settingsFile.SapPort));
                 MyExtensions.Log($"{response}", "SAP");
                 if (response.Contains("OK"))
                 {
@@ -110,8 +138,7 @@ namespace Central_pack
             catch (Exception e)
             {
                 MyExtensions.Log($"error {e.ToString()} nieudane połączenie z FIS", "Regular");
-
             }
         }
-    }   
+    }
 }

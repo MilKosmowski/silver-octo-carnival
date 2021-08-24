@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
-using System.Windows.Forms;
 using System.Threading;
-using System.IO.Ports;
+using System.Windows.Forms;
+
 using CustomExtensions;
 
 namespace Central_pack
@@ -28,12 +29,11 @@ namespace Central_pack
                     }
                 }
             }
-
             else if (barcodesSplitAndSorted.FirstOrDefault(stringToCheck => stringToCheck.Contains("3S")) != null && !barcodesSplitAndSorted.Contains("3S" + CartonLabelSerialNumber) && CartonLabelSerialNumber != "")
             {
                 MsgBoxShow($"Na stanowisku powinien znajdować się karton: {CartonLabelSerialNumber}. {(CartonCapacityQInteger == 0 ? $"Dodaje karton {CartonLabelSerialNumber} do produkcji przerywanej i r" : "R")}esetuje program.\n\nNa stendi povynna buty kartonna korobka: {CartonLabelSerialNumber}. {(CartonCapacityQInteger == 0 ? $"Додає коробку {CartonLabelSerialNumber} для перервного виробництва." : "")} Скидання програми.", Color.LightCoral);
 
-                if (CartonLabelAPN != "" && CartonLabelSerialNumber != "" && CartonCapacityQInteger != 0 && AmountOfProductsInCarton!= 0)
+                if (CartonLabelAPN != "" && CartonLabelSerialNumber != "" && CartonCapacityQInteger != 0 && AmountOfProductsInCarton != 0)
                     InterruptedProduction.SaveOneRecordToInterruptedProductionFile(CartonLabelAPN, CartonLabelSerialNumber, PackingType, CartonCapacityQInteger, AmountOfProductsInCarton);
                 ResetProgram();
             }
@@ -66,7 +66,7 @@ namespace Central_pack
                         catch { }
 
                         if (PackingProcessStep != "Skan Produktu")
-                            if (LastInput!= "-brak odczytu-") MyExtensions.Log("Skan: " + LastInput, "Regular");
+                            if (LastInput != "-brak odczytu-") MyExtensions.Log("Skan: " + LastInput, "Regular");
 
                         this.Invoke(new EventHandler(CartonLabelScannerParseAndPack));
 
@@ -84,7 +84,6 @@ namespace Central_pack
                         SerialPortScannerCarton.Write(buforString);
                     }
                     catch (Exception) { }
-
                 }
 
                 if (loopLabelCount == 5)
@@ -109,12 +108,10 @@ namespace Central_pack
                     {
                         barcodesSplitAndSorted[0] = code.Substring(code.IndexOf("1P"));
                     }
-
                     else if (code.Contains("Q"))
                     {
                         barcodesSplitAndSorted[1] = code.Substring(code.IndexOf("Q"));
                     }
-
                     else if (code.Contains("3S"))
                     {
                         barcodesSplitAndSorted[2] = code.Substring(code.IndexOf("3S"));

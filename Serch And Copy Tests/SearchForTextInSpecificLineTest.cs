@@ -1,12 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SearchWindow;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace SearchWindow.Tests
 {
@@ -20,7 +15,7 @@ namespace SearchWindow.Tests
             Directory.CreateDirectory("DestinationDirectoryTest");
             //Directory.CreateDirectory("Test text files source");
 
-            for (int i = 1; i <= 4; i++)
+            for (int i = 1; i <= 5; i++)
             {
                 if (File.Exists($@"SourceDirectoryTest\{i}.txt"))
                     File.Delete($@"SourceDirectoryTest\{i}.txt");
@@ -41,9 +36,9 @@ namespace SearchWindow.Tests
         public void SearchForTextInOneLineTest()
         {
             SearchWindowModel Model1 = new SearchWindowModel("TestStringToFindInFile", "SourceDirectoryTest", "DestinationDirectoryTest", 171);
-            SearchForTextInSpecificLine SearchInst = new SearchForTextInSpecificLine(Model1, BWorker);
+            SearchForSpecificLine SearchInst = new SearchForSpecificLine(Model1, BWorker);
 
-            string[] LogText=null;
+            string[] LogText = null;
             if (File.Exists("TransferLog.log"))
                 LogText = File.ReadAllLines("TransferLog.log");
 
@@ -56,7 +51,7 @@ namespace SearchWindow.Tests
         {
             SearchWindowModel Model2 = new SearchWindowModel("TestStringToFindInFile", "SourceDirectoryTest", "DestinationDirectoryTest");
 
-            SearchWindow.SearchForTextStreamReaderMethod SearchInst = new SearchWindow.SearchForTextStreamReaderMethod(Model2, BWorker);
+            SearchWindow.SearchStreamReaderMethod SearchInst = new SearchWindow.SearchStreamReaderMethod(Model2, BWorker);
 
             string[] LogText = null;
             if (File.Exists("TransferLog.log"))
@@ -69,9 +64,9 @@ namespace SearchWindow.Tests
         [TestMethod()]
         public void SearchForTextInLotsOfSmallFiles()
         {
-            SearchWindowModel Model2 = new SearchWindowModel("TestStringToFindInFile", "SourceDirectoryTest", "DestinationDirectoryTest");
+            SearchWindowModel Model3 = new SearchWindowModel("TestStringToFindInFile", "SourceDirectoryTest", "DestinationDirectoryTest");
 
-            SearchWindow.SearchForTextLinqMethod SearchInst = new SearchWindow.SearchForTextLinqMethod(Model2, BWorker);
+            SearchWindow.SearchLinqMethod SearchInst = new SearchWindow.SearchLinqMethod(Model3, BWorker);
 
             string[] LogText = null;
 
@@ -82,23 +77,45 @@ namespace SearchWindow.Tests
             Assert.IsTrue(LogText.Contains(@"4.txt                                              --> contains text: TestStringToFindInFile"));
         }
 
+        [TestMethod()]
+        public void SearchForTextInLotsOfSmallFilesMultiple()
+        {
+            SearchWindowModel Model3 = new SearchWindowModel("TestStringToFindInFile", "SourceDirectoryTest", "DestinationDirectoryTest",true);
+
+            SearchWindow.SearchLinqMethod SearchInst = new SearchWindow.SearchLinqMethod(Model3, BWorker);
+
+            string[] LogText = null;
+
+            if (File.Exists("TransferLog.log"))
+                LogText = File.ReadAllLines("TransferLog.log");
+
+            Assert.IsTrue(File.Exists(@"DestinationDirectoryTest\4.txt"));
+            Assert.IsTrue(File.Exists(@"DestinationDirectoryTest\5.txt"));
+            Assert.IsTrue(LogText.Contains(@"4.txt                                              --> contains text: TestStringToFindInFile"));
+        }
+
+
+
         [TestCleanup()]
         public void Cleanup()
         {
-            for (int i = 1; i <= 4; i++)
+            for (int i = 1; i <= 5; i++)
             {
                 if (File.Exists($@"DestinationDirectoryTest\{i}.txt"))
                     File.Move($@"DestinationDirectoryTest\{i}.txt", $@"Test text files source\{i}.txt");
-                
+
                 if (File.Exists($@"SourceDirectoryTest\{i}.txt") && !File.Exists($@"Test text files source\{i}.txt"))
                     File.Copy($@"SourceDirectoryTest\{i}.txt", $@"Test text files source\{i}.txt");
             }
 
             if (File.Exists("TransferLog.log"))
-                    File.Delete("TransferLog.log");
+                File.Delete("TransferLog.log");
         }
 
-        private void BWorker_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e){}
+        private void BWorker_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+        }
+
         private System.ComponentModel.BackgroundWorker BWorker;
     }
 }

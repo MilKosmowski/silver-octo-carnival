@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+
 using CustomExtensions;
 
 namespace Central_pack
 {
     partial class Declarations
     {
-
-        bool Logic1P(string id)
+        private bool Logic1P(string id)
         {
             if (id.Substring(0, 2) != "1P") return false;
 
@@ -22,13 +22,13 @@ namespace Central_pack
             return true;
         }
 
-        bool LogicQ(string id)
+        private bool LogicQ(string id)
         {
             if (id.Substring(0, 1) != "Q") return false;
 
             CartonCapacityQString = id.Substring(1);
 
-            if (!int.TryParse(CartonCapacityQString, out int number) && number>0)
+            if (!int.TryParse(CartonCapacityQString, out int number) && number > 0)
             {
                 MsgBoxShow($"Problem z ilością w kodzie Q: {CartonCapacityQString} <- to powinna być liczba naturalna.\n\nКількісна проблема в Q -> {CartonCapacityQString} <- має бути натуральним числом.", Color.Yellow);
                 return false;
@@ -37,8 +37,8 @@ namespace Central_pack
             CartonCapacityQInteger = number;
             return true;
         }
-        
-        bool Logic3S(string id)
+
+        private bool Logic3S(string id)
         {
             if (id.Substring(0, 2) != "3S") return false;
 
@@ -59,7 +59,6 @@ namespace Central_pack
                 InterruptedProduction.RemoveFromInterruptedProduction(przerywanaWynik);
             else if (przerywanaWynik != "OK" && przerywanaWynik != "LOAD ERROR")
             {
-
                 string recordStatus = GETCHILDREN(przerywanaWynik);
 
                 if (recordStatus.Contains("NOT EXIST") || recordStatus.Contains("NO CHILDREN"))
@@ -96,7 +95,7 @@ namespace Central_pack
                 //////////////////////////////
                 case "PASS istnieje":
                     string OdpowiedzZFISGetchildren = SendGETCHILDRENQueryAddTProductsInCartonAndReturnResponse(CartonLabelSerialNumber);
-                    if (OdpowiedzZFISGetchildren=="PASS")
+                    if (OdpowiedzZFISGetchildren == "PASS")
                     {
                         if (AmountOfProductsInCarton >= CartonCapacityQInteger)
                         {
@@ -109,7 +108,6 @@ namespace Central_pack
                         OK3S(CartonLabelAPN, CartonLabelSerialNumber);
                         return true;
                     }
-
                     else
                     {
                         OK3S(CartonLabelAPN, CartonLabelSerialNumber);
@@ -119,12 +117,10 @@ namespace Central_pack
                 default:
                     MsgBoxShow($"Błędna odpowiedź z FIS dla kartonu. Pobierz inny karton. odpowiedź: {BCRTCNresponse}.\n\nНевірна відповідь FIS для коробки. Отримайте ще одну коробку. відповідь: {BCRTCNresponse}.", Color.GreenYellow);
                     return false;
-
             }
-
         }
 
-        bool LogicBezelScan(string id)
+        private bool LogicBezelScan(string id)
         {
             string croppedAPNfromAssemblyLabel = ExtractDataFromProductScanner('S', IfASNAndFormat, id);
             if (CartonLabelAPN.Substring(0, 8) == croppedAPNfromAssemblyLabel)
@@ -134,19 +130,18 @@ namespace Central_pack
                 ErrorTryScanningAnotherBoard($"APN na bezelu ({croppedAPNfromAssemblyLabel}) nie zgadza się z APN produktu ({CartonLabelAPN.Substring(0, 8)}).\n\nAPN на рамці ({croppedAPNfromAssemblyLabel}) не відповідає APN продукту ({CartonLabelAPN.Substring(0, 8)}).", Color.GreenYellow, $"APN na bezelu ({croppedAPNfromAssemblyLabel}) nie zgadza się z APN produktu ({CartonLabelAPN.Substring(0, 8)}).\n\nAPN на рамці ({croppedAPNfromAssemblyLabel}) не відповідає APN продукту ({CartonLabelAPN.Substring(0, 8)}).", Color.GreenYellow);
                 return false;
             }
-
         }
 
-        bool LogicProductScan(string id)
+        private bool LogicProductScan(string id)
         {
-                /////////////////
+            /////////////////
             if (CartonSerialNumberFormat.Length > id.Length)
             {
                 MsgBoxShow($"Zeskanowano nieprawidłową etykietę. Kod powinien mieć {CartonSerialNumberFormat.Length} znaków, a ma {id.Length} znaków. Zeskanowany kod -> {id}.\n\nНедійсний ярлик відскановано. Код повинен містити {CartonSerialNumberFormat.Length} символів. Це символи {id.Length}. Відсканований код -> {id}.", Color.LightCoral);
                 return true;
             }
             /////////////////
-            APNInProductBarcode = ExtractDataFromProductScanner('D',APNFormat,id);
+            APNInProductBarcode = ExtractDataFromProductScanner('D', APNFormat, id);
             id = ExtractDataFromProductScanner('N', CartonSerialNumberFormat, id);
             if (!pictureHasBeenSetUp) pictureHasBeenSetUp = ProductPackPictureSetup(ExtractUK1(id), PackingType, photoFolderPath);
             if (APNInProductBarcode != APNFromAPNFile)
@@ -191,7 +186,6 @@ namespace Central_pack
                 StatusFail($"{id} - problem FIS ze spakowaniem produktu.\n\n{id} - Проблема FIS з упаковкою продукції.");
             }
 
-
             CommandMsg("Zeskanuj produkt.\n\nВідскануйте виріб.", Color.Aqua);
 
             UpdateCartonVisualization(AmountOfProductsInCarton);
@@ -199,7 +193,7 @@ namespace Central_pack
             return PackFullCarton();
         }
 
-        bool PackFullCarton()
+        private bool PackFullCarton()
         {
             if (AmountOfProductsInCarton == CartonCapacityQInteger && CartonLabelAPN != "" && CartonLabelSerialNumber != "")
             {
@@ -213,20 +207,20 @@ namespace Central_pack
             else return true;
         }
 
-        void ErrorTryScanningAnotherBoard(string command,Color kolorResponseMsg)
+        private void ErrorTryScanningAnotherBoard(string command, Color kolorResponseMsg)
         {
             ResponseMsg(command, kolorResponseMsg);
             CommandMsg("Zeskanuj produkt./n/nВідскануйте виріб.", Color.Aqua);
             panelCartonContentVisualization[AmountOfProductsInCarton].BackColor = Color.LightCoral;
         }
 
-        void ErrorTryScanningAnotherBoard(string ResponseMsgText, Color kolorResponseMsg, string MsgBoxText, Color kolorMsgBox)
+        private void ErrorTryScanningAnotherBoard(string ResponseMsgText, Color kolorResponseMsg, string MsgBoxText, Color kolorMsgBox)
         {
             MsgBoxShow(MsgBoxText, kolorMsgBox);
-            ErrorTryScanningAnotherBoard(ResponseMsgText,kolorResponseMsg);
+            ErrorTryScanningAnotherBoard(ResponseMsgText, kolorResponseMsg);
         }
 
-        bool ProductPackPictureSetup(string productFamily, string PackingType, string FilePath)
+        private bool ProductPackPictureSetup(string productFamily, string PackingType, string FilePath)
         {
             List<string> PhotoFileList = new List<string>();
 
@@ -252,7 +246,7 @@ namespace Central_pack
             return false;
         }
 
-        bool SetPicture(string name, string file, string FilePath)
+        private bool SetPicture(string name, string file, string FilePath)
         {
             string combined = FilePath + $"\\{name}.jpg";
             if (file == combined)
@@ -260,10 +254,11 @@ namespace Central_pack
                 MyExtensions.Log(combined);
                 PackingPictureFilePath = Image.FromFile(combined);
                 return true;
-            }            return false;
+            }
+            return false;
         }
 
-        void CartonFullSendItToFISAndSAPAndResetProgram(string id)
+        private void CartonFullSendItToFISAndSAPAndResetProgram(string id)
         {
             if (BCRTCN(CartonLabelSerialNumber, CartonCapacityQString, CartonLabelAPN, "zamknij").Contains("zamknieto"))
             {
@@ -279,17 +274,16 @@ namespace Central_pack
             StatusWarning("Etykieta jest pełna. Zostanie zmknięta.\n\nЕтикетка заповнена.Він буде закритий.");
         }
 
-        void UpdateCartonVisualization(int IloscWKartonie)
+        private void UpdateCartonVisualization(int IloscWKartonie)
         {
             for (int i = 0; i < IloscWKartonie; i++)
             {
                 panelCartonContentVisualization[i].BackColor = Color.LightGreen;
                 panelCartonContentVisualization[i].Text = productsInCarton[i];
             }
-
         }
 
-        void OK3S(string PN,string SN)
+        private void OK3S(string PN, string SN)
         {
             OneSecondClockOn = false;
             ResponseMsg($"Etykieta kartonu wczytana poprawnie.", Color.LightGreen);
@@ -301,7 +295,7 @@ namespace Central_pack
             UpdateCartonVisualization(AmountOfProductsInCarton);
         }
 
-        string ExtractDataFromProductScanner(Char ZnakDoWyciagniecia, string FormatDoWyciecia, string KodDoSkrocenia)
+        private string ExtractDataFromProductScanner(Char ZnakDoWyciagniecia, string FormatDoWyciecia, string KodDoSkrocenia)
         {
             char[] CodeTypePNSplit = FormatDoWyciecia.ToCharArray();
             char[] PNSplit = KodDoSkrocenia.ToCharArray();
@@ -314,11 +308,11 @@ namespace Central_pack
                     PNTemp = PNTemp + Char.ToString(PNSplit[i]);
                 }
             }
-           
+
             return PNTemp;
         }
 
-        bool FISCheckBREQResponseIfOK(string id)
+        private bool FISCheckBREQResponseIfOK(string id)
         {
             string response = BREQUK2(id);
 
@@ -350,7 +344,7 @@ namespace Central_pack
             return false;
         }
 
-        string ExtractUK1(string id)
+        private string ExtractUK1(string id)
         {
             string response = BREQUK1(id);
 

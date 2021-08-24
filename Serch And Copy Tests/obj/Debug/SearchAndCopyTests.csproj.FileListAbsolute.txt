@@ -21,3 +21,4 @@ C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug
 C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SearchAndCopyTests.csproj.CopyComplete
 C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SerchAndCopyTests.dll
 C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\obj\Debug\SerchAndCopyTests.pdb
+C:\Rozwiązania c#\Central Packaging Main Program\Serch And Copy Tests\bin\Debug\Test text files source\5.txt

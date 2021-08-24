@@ -1,4 +1,6 @@
-﻿namespace SearchWindow
+﻿using System;
+
+namespace SearchWindow
 {
     partial class SearchWindowViewModel
     {
@@ -41,6 +43,7 @@
             this.textBoxLineNumberToCheck = new System.Windows.Forms.TextBox();
             this.backgroundWorkerSearchForFile = new System.ComponentModel.BackgroundWorker();
             this.progressBarSearchProgress = new System.Windows.Forms.ProgressBar();
+            this.checkBoxsearchForMultipleOccurences = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // buttonStartSearch
@@ -69,7 +72,7 @@
             this.textBoxDestinationLocation.Name = "textBoxDestinationLocation";
             this.textBoxDestinationLocation.Size = new System.Drawing.Size(866, 26);
             this.textBoxDestinationLocation.TabIndex = 2;
-            this.textBoxDestinationLocation.Text = "DefaultFolder";
+            this.textBoxDestinationLocation.Text = $@"{Environment.CurrentDirectory}\DefaultFolder";
             // 
             // textBoxWhatToLookFor
             // 
@@ -118,7 +121,6 @@
             this.textBoxSearchProgress.Size = new System.Drawing.Size(866, 26);
             this.textBoxSearchProgress.TabIndex = 7;
             this.textBoxSearchProgress.Visible = false;
-            this.textBoxSearchProgress.TextChanged += new System.EventHandler(this.textBoxSearchProgress_TextChanged);
             // 
             // labelSearchProgress
             // 
@@ -165,11 +167,23 @@
             this.progressBarSearchProgress.TabIndex = 11;
             this.progressBarSearchProgress.Visible = false;
             // 
+            // checkBoxsearchForMultipleOccurences
+            // 
+            this.checkBoxsearchForMultipleOccurences.AutoSize = true;
+            this.checkBoxsearchForMultipleOccurences.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.checkBoxsearchForMultipleOccurences.Location = new System.Drawing.Point(242, 432);
+            this.checkBoxsearchForMultipleOccurences.Name = "checkBoxsearchForMultipleOccurences";
+            this.checkBoxsearchForMultipleOccurences.Size = new System.Drawing.Size(420, 35);
+            this.checkBoxsearchForMultipleOccurences.TabIndex = 12;
+            this.checkBoxsearchForMultipleOccurences.Text = "Search For Multiple Occurences";
+            this.checkBoxsearchForMultipleOccurences.UseVisualStyleBackColor = true;
+            // 
             // SearchWindowViewModel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1056, 629);
+            this.Controls.Add(this.checkBoxsearchForMultipleOccurences);
             this.Controls.Add(this.progressBarSearchProgress);
             this.Controls.Add(this.textBoxLineNumberToCheck);
             this.Controls.Add(this.labelLineNumberToCheck);
@@ -205,6 +219,7 @@
         private System.Windows.Forms.TextBox textBoxLineNumberToCheck;
         private System.ComponentModel.BackgroundWorker backgroundWorkerSearchForFile;
         private System.Windows.Forms.ProgressBar progressBarSearchProgress;
+        private System.Windows.Forms.CheckBox checkBoxsearchForMultipleOccurences;
     }
 }
 

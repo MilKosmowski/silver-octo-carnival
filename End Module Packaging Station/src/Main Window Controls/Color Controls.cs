@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+
 using CustomExtensions;
 
 namespace Central_pack
@@ -15,7 +16,7 @@ namespace Central_pack
         public void CommandMsg(string msg, Color color) //Co wpisać w label "Polecenie"
         {
             CommandForUser = msg;
-            MyExtensions.Log("Command msg: " + msg,"Regular");
+            MyExtensions.Log("Command msg: " + msg, "Regular");
             Application.DoEvents();
         }
 
@@ -23,8 +24,8 @@ namespace Central_pack
         {
             ResponseForUser = msg;
             ReponseForUserColor = color;
-            MyExtensions.Log("Response msg: " + msg,"Regular");
-            if (color==Color.GreenYellow)
+            MyExtensions.Log("Response msg: " + msg, "Regular");
+            if (color == Color.GreenYellow)
                 timerChangeCommandForUserColor.Enabled = true;
         }
 
@@ -60,7 +61,7 @@ namespace Central_pack
 
         public static void MsgBoxShow(string text, Color color)
         {
-            MyExtensions.Log(text,"Regular");
+            MyExtensions.Log(text, "Regular");
             PopupWindow msgbox = new PopupWindow(text, color, true);
             msgbox.Show();
         }
@@ -72,12 +73,15 @@ namespace Central_pack
                 case 0:
                     labelStatusSap.BackColor = Color.LightCoral;
                     break;
+
                 case 1:
                     labelStatusSap.BackColor = Color.LightGreen;
                     break;
+
                 case 2:
                     labelStatusSap.BackColor = Color.Blue;
                     break;
+
                 default:
                     labelStatusSap.BackColor = Color.Gainsboro;
                     break;

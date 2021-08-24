@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Net;
+
 using CustomExtensions;
 
 namespace Central_pack
@@ -43,7 +44,7 @@ namespace Central_pack
                 ValidateIP = IPAddress.TryParse(PrimarySAPIp, out _);
                 if (!ValidateIP)
                     throw new Exception($"Invalid ip: {SapIP[0]}, or invalid hostname: {hostname}.");
-                MyExtensions.Log(MyExtensions.Ping(PrimarySAPIp),"Regular");
+                MyExtensions.Log(MyExtensions.Ping(PrimarySAPIp), "Regular");
             }
 
             SapPort = SettingsFile[11];
@@ -53,7 +54,7 @@ namespace Central_pack
             string InterruptedProductionFileLocation = SettingsFile[19];
             LegacyInterruptedProductionMethodOn = SettingsFile[21];
             string LegacyInterruptedProductionFileLocation = SettingsFile[23];
-            ActualInterruptedProductionFileLocation = LegacyInterruptedProductionMethodOn=="1" ? LegacyInterruptedProductionFileLocation : InterruptedProductionFileLocation;
+            ActualInterruptedProductionFileLocation = LegacyInterruptedProductionMethodOn == "1" ? LegacyInterruptedProductionFileLocation : InterruptedProductionFileLocation;
         }
 
         public string FisIp { get; set; }

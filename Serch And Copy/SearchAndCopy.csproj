@@ -51,7 +51,7 @@
   <ItemGroup>
     <Compile Include="CheckInputDataBakaYoke.cs" />
     <Compile Include="Progress.cs" />
-    <Compile Include="ProgramExecute.cs" />
+    <Compile Include="Execute.cs" />
     <Compile Include="SearchForFiles.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>

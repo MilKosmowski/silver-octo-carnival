@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Drawing;
-using CustomExtensions;
 
 namespace Central_pack
 {
-    partial class  Declarations
+    partial class Declarations
     {
         public void PACK(string id)
         {
-
             switch (PackingProcessStep)
             {
-
                 case "Skanowanie kodu 1P": //Skan 1P
 
                     if (Logic1P(id))
@@ -68,6 +65,5 @@ namespace Central_pack
                     break;
             }
         }
-
     }
 }
