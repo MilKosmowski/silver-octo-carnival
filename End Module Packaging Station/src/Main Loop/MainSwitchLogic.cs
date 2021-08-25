@@ -135,11 +135,11 @@ namespace Central_pack
         private bool LogicProductScan(string id)
         {
             /////////////////
-            if (CartonSerialNumberFormat.Length > id.Length)
-            {
-                MsgBoxShow($"Zeskanowano nieprawidłową etykietę. Kod powinien mieć {CartonSerialNumberFormat.Length} znaków, a ma {id.Length} znaków. Zeskanowany kod -> {id}.\n\nНедійсний ярлик відскановано. Код повинен містити {CartonSerialNumberFormat.Length} символів. Це символи {id.Length}. Відсканований код -> {id}.", Color.LightCoral);
-                return true;
-            }
+            //if (CartonSerialNumberFormat.Length > id.Length+2)
+            //{
+            //    MsgBoxShow($"Zeskanowano nieprawidłową etykietę. Kod powinien mieć {CartonSerialNumberFormat.Length} znaków, a ma {id.Length} znaków. Zeskanowany kod -> {id}.\n\nНедійсний ярлик відскановано. Код повинен містити {CartonSerialNumberFormat.Length} символів. Це символи {id.Length}. Відсканований код -> {id}.", Color.LightCoral);
+            //    return true;
+            //}
             /////////////////
             APNInProductBarcode = ExtractDataFromProductScanner('D', APNFormat, id);
             id = ExtractDataFromProductScanner('N', CartonSerialNumberFormat, id);
@@ -304,6 +304,7 @@ namespace Central_pack
 
             for (int i = 0; i < APNFormat.Length; i++)
             {
+                if (PNSplit.Length - 1 < i) continue;
                 if (CodeTypePNSplit[i].Equals(char.ToUpper(ZnakDoWyciagniecia)) || CodeTypePNSplit[i].Equals(char.ToLower(ZnakDoWyciagniecia)))
                 {
                     PNTemp = PNTemp + Char.ToString(PNSplit[i]);
@@ -323,26 +324,26 @@ namespace Central_pack
                 return true;
             }
 
+            if (response.Contains("status=FAIL"))
+            {
+                ErrorTryScanningAnotherBoard($"Błąd FIS produktu {id}. Nieprawidłowy krok procesu. Odłóż produkt do braków. Недійсний крок процесу. Помилка маршруту FIS. Відкладіть виріб убік.", Color.Tomato);
+                return true;
+            }
+
             if (response.Contains("UNKNOWN error") || response.Contains("archiwum") || response == "null" || string.IsNullOrEmpty(response))
             {
                 ErrorTryScanningAnotherBoard($"Błąd FIS produktu {id}. Nie znaleziono produktu w bazie FIS, jest zarchiwizowany lub nie istnieje. Продукт відсутній у базі даних FIS, заархівований або не існує.", Color.Yellow);
                 return true;
             }
 
-            if (!response.Contains("PASS"))
-            {
-                ErrorTryScanningAnotherBoard($"Błąd FIS produktu {id}. Nieprawidłowy krok procesu. Odłóż produkt do braków. Недійсний крок процесу. Помилка маршруту FIS. Відкладіть виріб убік.", Color.Tomato);
-                return true;
-            }
-
-            string[] fullResponse = response.Split('|', '=');
-            string partnumberFis = fullResponse[fullResponse.Length];
-
-            if (partnumberFis != CartonLabelAPN.Substring(0, 8))
-            {
-                ErrorTryScanningAnotherBoard("Karton i UK2 produktu z FIS są różne", Color.Yellow, $"Karton i UK2 produktu są różne. PN kartonu: {CartonLabelAPN.Substring(0, 8)}. PN UK2 zeskanowanego produktu: {partnumberFis}", Color.Yellow);
-                return true;
-            }
+            //string[] fullResponse = response.Split('|', '=');
+            //string partnumberFis = fullResponse[fullResponse.Length-1];
+            //
+            //if (partnumberFis != CartonLabelAPN.Substring(0, 8))
+            //{
+            //    ErrorTryScanningAnotherBoard("Karton i UK2 produktu z FIS są różne", Color.Yellow, $"Karton i UK2 produktu są różne. PN kartonu: {CartonLabelAPN.Substring(0, 8)}. PN UK2 zeskanowanego produktu: {partnumberFis}", Color.Yellow);
+            //    return true;
+            //}
 
             return false;
         }

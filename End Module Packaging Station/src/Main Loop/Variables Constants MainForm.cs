@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Net.Sockets;
@@ -120,13 +121,18 @@ namespace Central_pack
 
         private void TimerResetCounter_Tick(object sender, EventArgs e)
         {
-            string time = DateTime.Now.ToString("HH:mm:ss");
-            if (time == "06:00:00")
-                currentShift = 1;
-            if (time == "14:00:00")
-                currentShift = 2;
-            if (time == "22:00:00")
-                currentShift = 3;
+            Int32.TryParse(DateTime.Now.ToString("HH"), out int currentHour);
+            if (6 <= currentHour && currentHour < 14)
+                if (CurrentShift != 1) CurrentShift = 1;
+            if (14 <= currentHour && currentHour < 22)
+                if (CurrentShift != 2) CurrentShift = 2;
+            if (22 <= currentHour && currentHour < 6)
+                if (CurrentShift != 3) CurrentShift = 3;
+        }
+
+        private void buttonOpenMantis_Click(object sender, EventArgs e)
+        {
+            if (textBoxProductScanner.Text!="") Process.Start("IExplore.exe", @"http://gdfis001.europe.delphiauto.net/std_public/unithistory?unit=" + textBoxProductScanner.Text);
         }
     }
 }

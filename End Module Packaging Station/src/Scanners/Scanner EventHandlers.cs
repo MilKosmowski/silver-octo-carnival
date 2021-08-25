@@ -140,6 +140,7 @@ namespace Central_pack
         private void DisplayTextProductScanner(object sender, EventArgs e)
         {
             LastInput = ScannerData;
+            textBoxProductScanner.Text = ScannerData;
             PACK(ScannerData);
             Refresh();
             Application.DoEvents();

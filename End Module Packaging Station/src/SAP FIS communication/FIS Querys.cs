@@ -45,8 +45,7 @@ namespace Central_pack
         public static string BREQUK2(string id)
         {
             string msg = $"BREQ|id={id}|station={settingsFile.Station}|process={settingsFile.Process}|status=PASS|get=uk2\n";
-            msg = SendToFISLogAndReturnResponseFromFIS(msg);
-            return BREQResponse(msg, id);
+            return SendToFISLogAndReturnResponseFromFIS(msg);
         }
 
         public static string BREQResponse(string msg, string id)

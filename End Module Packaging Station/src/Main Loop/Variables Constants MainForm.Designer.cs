@@ -73,6 +73,8 @@
             this.labelCartonNumber = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.textBoxProductScanner = new System.Windows.Forms.TextBox();
+            this.buttonOpenMantis = new System.Windows.Forms.Button();
             this.panelLastInput.SuspendLayout();
             this.panelStationNumber.SuspendLayout();
             this.panelPackedByCapacity.SuspendLayout();
@@ -118,7 +120,7 @@
             this.labelResponseForUser.Location = new System.Drawing.Point(323, 723);
             this.labelResponseForUser.MaximumSize = new System.Drawing.Size(316, 300);
             this.labelResponseForUser.Name = "labelResponseForUser";
-            this.labelResponseForUser.Size = new System.Drawing.Size(314, 206);
+            this.labelResponseForUser.Size = new System.Drawing.Size(314, 172);
             this.labelResponseForUser.TabIndex = 13;
             this.labelResponseForUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -131,7 +133,7 @@
             this.labelCommandForUser.Location = new System.Drawing.Point(5, 724);
             this.labelCommandForUser.MaximumSize = new System.Drawing.Size(316, 300);
             this.labelCommandForUser.Name = "labelCommandForUser";
-            this.labelCommandForUser.Size = new System.Drawing.Size(316, 206);
+            this.labelCommandForUser.Size = new System.Drawing.Size(316, 171);
             this.labelCommandForUser.TabIndex = 20;
             this.labelCommandForUser.Text = "Skanowanie etykiety kartonu. Сканування етикетки з картону.";
             this.labelCommandForUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -171,11 +173,13 @@
             this.panelLastInput.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelLastInput.BackColor = System.Drawing.Color.Gainsboro;
             this.panelLastInput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelLastInput.Controls.Add(this.buttonOpenMantis);
+            this.panelLastInput.Controls.Add(this.textBoxProductScanner);
             this.panelLastInput.Controls.Add(this.textBoxLastInput);
             this.panelLastInput.Controls.Add(this.labelLastInputStaticString);
-            this.panelLastInput.Location = new System.Drawing.Point(185, 932);
+            this.panelLastInput.Location = new System.Drawing.Point(185, 898);
             this.panelLastInput.Name = "panelLastInput";
-            this.panelLastInput.Size = new System.Drawing.Size(452, 80);
+            this.panelLastInput.Size = new System.Drawing.Size(452, 114);
             this.panelLastInput.TabIndex = 63;
             // 
             // textBoxLastInput
@@ -192,7 +196,7 @@
             this.labelLastInputStaticString.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelLastInputStaticString.AutoSize = true;
             this.labelLastInputStaticString.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
-            this.labelLastInputStaticString.Location = new System.Drawing.Point(139, 8);
+            this.labelLastInputStaticString.Location = new System.Drawing.Point(8, 5);
             this.labelLastInputStaticString.Name = "labelLastInputStaticString";
             this.labelLastInputStaticString.Size = new System.Drawing.Size(175, 31);
             this.labelLastInputStaticString.TabIndex = 72;
@@ -306,7 +310,7 @@
             this.textBoxKeyboardWedgeScannerData.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxKeyboardWedgeScannerData.BackColor = System.Drawing.SystemColors.MenuBar;
             this.textBoxKeyboardWedgeScannerData.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.textBoxKeyboardWedgeScannerData.Location = new System.Drawing.Point(11, 24);
+            this.textBoxKeyboardWedgeScannerData.Location = new System.Drawing.Point(11, 41);
             this.textBoxKeyboardWedgeScannerData.Name = "textBoxKeyboardWedgeScannerData";
             this.textBoxKeyboardWedgeScannerData.Size = new System.Drawing.Size(148, 29);
             this.textBoxKeyboardWedgeScannerData.TabIndex = 70;
@@ -318,9 +322,9 @@
             this.panelManualInput.BackColor = System.Drawing.Color.Gainsboro;
             this.panelManualInput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelManualInput.Controls.Add(this.textBoxKeyboardWedgeScannerData);
-            this.panelManualInput.Location = new System.Drawing.Point(5, 932);
+            this.panelManualInput.Location = new System.Drawing.Point(5, 898);
             this.panelManualInput.Name = "panelManualInput";
-            this.panelManualInput.Size = new System.Drawing.Size(174, 80);
+            this.panelManualInput.Size = new System.Drawing.Size(174, 114);
             this.panelManualInput.TabIndex = 72;
             // 
             // buttonProdukcjaPrzerywana
@@ -558,6 +562,25 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // textBoxProductScanner
+            // 
+            this.textBoxProductScanner.BackColor = System.Drawing.Color.GreenYellow;
+            this.textBoxProductScanner.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.textBoxProductScanner.Location = new System.Drawing.Point(14, 77);
+            this.textBoxProductScanner.Name = "textBoxProductScanner";
+            this.textBoxProductScanner.Size = new System.Drawing.Size(422, 29);
+            this.textBoxProductScanner.TabIndex = 81;
+            // 
+            // buttonOpenMantis
+            // 
+            this.buttonOpenMantis.Location = new System.Drawing.Point(239, 8);
+            this.buttonOpenMantis.Name = "buttonOpenMantis";
+            this.buttonOpenMantis.Size = new System.Drawing.Size(197, 28);
+            this.buttonOpenMantis.TabIndex = 82;
+            this.buttonOpenMantis.Text = "Otwórz MANTIS";
+            this.buttonOpenMantis.UseVisualStyleBackColor = true;
+            this.buttonOpenMantis.Click += new System.EventHandler(this.buttonOpenMantis_Click);
+            // 
             // Declarations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -651,6 +674,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelShift;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox textBoxProductScanner;
+        private System.Windows.Forms.Button buttonOpenMantis;
     }
 }
 
