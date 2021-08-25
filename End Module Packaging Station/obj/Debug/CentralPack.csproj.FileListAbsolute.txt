@@ -130,3 +130,21 @@ C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\o
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.OptionsMenu.resources
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.Declarations.resources
 C:\Rozwiązania c#\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.PopupWindow.resources
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\src\Options and Warning windows\Options Window.resx
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\src\Options and Warning windows\Options Window.cs
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\src\Options and Warning windows\Options Window.Designer.cs
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\Central_pack.exe.config
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\Central_pack.exe
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\Central_pack.pdb
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\CustomExtensions.dll
+C:\prog\Central Packaging Main Program\End Module Packaging Station\bin\Debug\CustomExtensions.pdb
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\CentralPack.csproj.AssemblyReference.cache
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.OptionsMenu.resources
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.Declarations.resources
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.PopupWindow.resources
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.Properties.Resources.resources
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\CentralPack.csproj.GenerateResource.cache
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\CentralPack.csproj.CoreCompileInputs.cache
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\CentralPack.csproj.CopyComplete
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.exe
+C:\prog\Central Packaging Main Program\End Module Packaging Station\obj\Debug\Central_pack.pdb

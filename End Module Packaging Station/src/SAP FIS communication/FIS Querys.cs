@@ -51,7 +51,7 @@ namespace Central_pack
 
         public static string BREQResponse(string msg, string id)
         {
-            if (msg.Contains("BCNF") && msg.Contains(id) && msg.Contains("PASS"))
+            if (msg.Contains("BCNF") && msg.Contains(id))
             {
                 return msg;
             }

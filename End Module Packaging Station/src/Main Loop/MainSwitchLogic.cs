@@ -171,6 +171,7 @@ namespace Central_pack
 
             if (FISCheckBREQResponseIfOK(id)) return true;
 
+
             string responseBCMPU = BCMPU(id, CartonLabelSerialNumber, CartonLabelAPN);
             if (responseBCMPU.Contains("PASS"))
             {
@@ -328,19 +329,21 @@ namespace Central_pack
                 return true;
             }
 
+            if (!response.Contains("PASS"))
+            {
+                ErrorTryScanningAnotherBoard($"Błąd FIS produktu {id}. Nieprawidłowy krok procesu. Odłóż produkt do braków. Недійсний крок процесу. Помилка маршруту FIS. Відкладіть виріб убік.", Color.Tomato);
+                return true;
+            }
+
             string[] fullResponse = response.Split('|', '=');
-            string partnumberFis = fullResponse[fullResponse.Length - 2];
+            string partnumberFis = fullResponse[fullResponse.Length];
 
             if (partnumberFis != CartonLabelAPN.Substring(0, 8))
             {
                 ErrorTryScanningAnotherBoard("Karton i UK2 produktu z FIS są różne", Color.Yellow, $"Karton i UK2 produktu są różne. PN kartonu: {CartonLabelAPN.Substring(0, 8)}. PN UK2 zeskanowanego produktu: {partnumberFis}", Color.Yellow);
                 return true;
             }
-            if (!response.Contains("PASS"))
-            {
-                ErrorTryScanningAnotherBoard($"Błąd FIS produktu {id}. Nieprawidłowy krok procesu. Błąd ruty FIS. Недійсний крок процесу. Помилка маршруту FIS.", Color.Yellow);
-                return true;
-            }
+
             return false;
         }
 
