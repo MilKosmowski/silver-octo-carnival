@@ -141,8 +141,10 @@ namespace Central_pack
             //    return true;
             //}
             /////////////////
-            APNInProductBarcode = ExtractDataFromProductScanner('D', APNFormat, id);
+            APNInProductBarcode = ExtractDataFromProductScanner('D', APNFormat, id); 
             id = ExtractDataFromProductScanner('N', CartonSerialNumberFormat, id);
+            if (id =="") return false;
+
             if (!pictureHasBeenSetUp) pictureHasBeenSetUp = ProductPackPictureSetup(ExtractUK1(id), PackingType, photoFolderPath);
             if (APNInProductBarcode != APNFromAPNFile)
             {

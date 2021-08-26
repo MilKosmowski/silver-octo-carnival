@@ -7,6 +7,7 @@ namespace Central_pack
     {
         public void PACK(string id)
         {
+            if (id == "") return;
             switch (PackingProcessStep)
             {
                 case "Skanowanie kodu 1P": //Skan 1P
