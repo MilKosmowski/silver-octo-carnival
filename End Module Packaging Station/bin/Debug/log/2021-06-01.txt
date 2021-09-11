@@ -1,49 +1,0 @@
-10:36:49 10.235.241.235 B=32 T=2ms TTL=64
-10:36:50 10.128.40.221 B=32 T=118ms TTL=249
-10:36:50 <T>
-10:37:02 Skan: 1P28632176-01;3S655991115;Q1
-10:37:02 ACS: 1P28632176-01
-10:37:02 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
-10:37:02 Reset
-10:37:02 Command msg: Skanowanie etykiety kartonu.Сканування етикетки з картону.
-10:37:02 Zeskanuj kod 1P
-10:37:02 error System.NullReferenceException: Object reference not set to an instance of an object.   at Central_pack.Declarations.StopFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 141 nieudane połączenie z FIS
-10:37:02 ACS: Q1
-10:37:02 Reset
-10:37:02 Command msg: Skanowanie etykiety kartonu.Сканування етикетки з картону.
-10:37:02 Zeskanuj kod 1P
-10:37:02 error System.NullReferenceException: Object reference not set to an instance of an object.   at Central_pack.Declarations.StopFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 141 nieudane połączenie z FIS
-10:37:02 ACS: 3S655991115
-10:37:02 Reset
-10:37:02 Command msg: Skanowanie etykiety kartonu.Сканування етикетки з картону.
-10:37:02 Zeskanuj kod 1P
-10:37:02 error System.NullReferenceException: Object reference not set to an instance of an object.   at Central_pack.Declarations.StopFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 141 nieudane połączenie z FIS
-10:37:05 Skan: 1P28632176-01;3S655991115;Q1
-10:37:05 ACS: 1P28632176-01
-10:37:05 Response msg: Nie znaleziono pliku konfiguracyjnego: 28632176
-10:37:05 Reset
-10:37:05 Command msg: Skanowanie etykiety kartonu.Сканування етикетки з картону.
-10:37:05 Zeskanuj kod 1P
-10:37:05 error System.NullReferenceException: Object reference not set to an instance of an object.   at Central_pack.Declarations.StopFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 141 nieudane połączenie z FIS
-10:37:05 ACS: Q1
-10:37:05 Reset
-10:37:05 Command msg: Skanowanie etykiety kartonu.Сканування етикетки з картону.
-10:37:05 Zeskanuj kod 1P
-10:37:05 error System.NullReferenceException: Object reference not set to an instance of an object.   at Central_pack.Declarations.StopFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 141 nieudane połączenie z FIS
-10:37:05 ACS: 3S655991115
-10:37:05 Reset
-10:37:05 Command msg: Skanowanie etykiety kartonu.Сканування етикетки з картону.
-10:37:05 Zeskanuj kod 1P
-10:37:05 error System.NullReferenceException: Object reference not set to an instance of an object.   at Central_pack.Declarations.StopFISConnection() in C:\Rozwiązania c#\Central Packaging Main Program\Central_pack\src\SAP FIS communication\SAP FIS Network Connection.cs:line 141 nieudane połączenie z FIS
-10:37:50 10.235.241.235 B=32 T=1ms TTL=64
-10:37:50 10.128.40.221 B=32 T=119ms TTL=249
-10:37:50 <T>
-10:37:55 Zamykanie programu
-10:38:04 10.235.241.235 B=32 T=1ms TTL=64
-10:38:04 10.128.40.221 B=32 T=121ms TTL=249
-10:38:04 <T>
-10:38:08 Zamykanie programu
-10:41:00 10.235.241.235 B=32 T=1ms TTL=64
-10:41:01 10.128.40.221 B=32 T=118ms TTL=249
-10:41:01 <T>
-10:41:02 Zamykanie programu
