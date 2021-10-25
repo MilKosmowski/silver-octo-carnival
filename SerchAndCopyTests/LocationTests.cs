@@ -1,8 +1,8 @@
 ﻿using System;
 
 using CustomExtensions;
-
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 
 namespace SearchWindow.Tests
 {
