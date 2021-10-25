@@ -17,7 +17,7 @@ namespace SearchWindow.Tests
 
             for (int i = 1; i <= 4; i++)
                 if (!File.Exists($@"{srcName}\{i}.txt"))
-                    File.Move($@"Test text files source\{i}.txt", $@"{srcName}\{i}.txt");
+                    File.Move($@"TestTextFilesSource\{i}.txt", $@"{srcName}\{i}.txt");
         }
 
         [TestMethod()]

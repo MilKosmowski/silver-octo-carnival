@@ -23,8 +23,8 @@ namespace SearchWindow.Tests
                 if (File.Exists($@"DestinationDirectoryTest\{i}.log"))
                     File.Delete($@"DestinationDirectoryTest\{i}.txt");
 
-                if (File.Exists($@"Test text files source\{i}.txt"))
-                    File.Move($@"Test text files source\{i}.txt", $@"SourceDirectoryTest\{i}.txt");
+                if (File.Exists($@"TestTextFilesSource\{i}.txt"))
+                    File.Move($@"TestTextFilesSource\{i}.txt", $@"SourceDirectoryTest\{i}.txt");
             }
 
             this.BWorker = new System.ComponentModel.BackgroundWorker();
@@ -46,7 +46,8 @@ namespace SearchWindow.Tests
             Assert.IsTrue(LogText.Contains(@"4.txt                                              --> contains text: TestStringToFindInFile"));
         }
 
-        [TestMethod()]s        public void SearchForTextInBigFiles()
+        [TestMethod()]     
+        public void SearchForTextInBigFiles()
         {
             SearchWindowModel Model2 = new SearchWindowModel("TestStringToFindInFile", "SourceDirectoryTest", "DestinationDirectoryTest");
 
@@ -101,10 +102,10 @@ namespace SearchWindow.Tests
             for (int i = 1; i <= 5; i++)
             {
                 if (File.Exists($@"DestinationDirectoryTest\{i}.txt"))
-                    File.Move($@"DestinationDirectoryTest\{i}.txt", $@"Test text files source\{i}.txt");
+                    File.Move($@"DestinationDirectoryTest\{i}.txt", $@"TestTextFilesSource\{i}.txt");
 
-                if (File.Exists($@"SourceDirectoryTest\{i}.txt") && !File.Exists($@"Test text files source\{i}.txt"))
-                    File.Copy($@"SourceDirectoryTest\{i}.txt", $@"Test text files source\{i}.txt");
+                if (File.Exists($@"SourceDirectoryTest\{i}.txt") && !File.Exists($@"TestTextFilesSource\{i}.txt"))
+                    File.Copy($@"SourceDirectoryTest\{i}.txt", $@"TestTextFilesSource\{i}.txt");
             }
 
             if (File.Exists("TransferLog.log"))
